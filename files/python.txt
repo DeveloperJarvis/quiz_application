@@ -1,0 +1,200 @@
+Q1|What is the time complexity of searching a key in Python’s dictionary on average?|O(n)|O(log n)|O(1)|O(n log n)|C|H
+Q2|Which module provides the implementation of Python's Abstract Syntax Trees?|tokenize|parser|ast|inspect|C|H
+Q3|Which Python feature enables multiple inheritance conflict resolution?|MRO|LIFO|GIL|C3 Linearization|D|H
+Q4|What is the return type of range() in Python 3?|List|Tuple|Range object|Iterator|C|H
+Q5|Which protocol allows an object to be used in a with statement?|__enter__ and __exit__|__call__|__new__|__next__|A|H
+Q6|What does the GIL restrict?|Multiple processes|Multiple threads executing Python bytecode simultaneously|Recursion|Async IO|B|H
+Q7|Which function is responsible for object creation before __init__?|__alloc__|__new__|__create__|__build__|B|H
+Q8|Which decorator converts a function into a generator factory?|@functools.wraps|@staticmethod|@contextmanager|@property|C|H
+Q9|What is the output type of map() in Python 3?|List|Map object|Iterator list|Tuple|B|H
+Q10|Which module exposes Python's garbage collection interface?|gc|memory|weakref|sys|A|H
+Q11|What is the purpose of sys.intern()?|Store strings in global table|Serialize strings|Hash optimization|Thread-local caching|A|H
+Q12|Which object method is called during attribute lookup when attribute isn’t found?|__missing__|__lookup__|__getattr__|__find__|C|H
+Q13|Which Python module implements LRU cache decorators?|functools|collections|cachetools|itertools|A|H
+Q14|Which built-in type is immutable?|List|Dict|Set|Tuple|D|H
+Q15|What does inspect.getsource() return?|Bytecode|Compiled AST|Function source code|Disassembly|C|H
+Q16|What does *args collect?|Keyword arguments|Positional arguments|Local variables|Global variables|B|H
+Q17|Which statement is used to create a generator?|yield|return|async|spawn|A|H
+Q18|Which data type guarantees order preservation since Python 3.7?|Set|Dict|FrozenSet|WeakSet|B|H
+Q19|Which metaclass is default in Python?|BaseMeta|Type|ObjectMeta|Meta|B|H
+Q20|Which module provides disassembly of Python bytecode?|ast|token|code|dis|D|H
+Q21|What type does open() return in text mode?|file_stream|StringIO|TextIOWrapper|FileBuffer|C|H
+Q22|Which function can modify local variables in enclosing scope?|global|nonlocal|locals()|update()|B|H
+Q23|Which Python object is used for weak references?|gc.ref|weakref.ref|sys.ref|refview|B|H
+Q24|Which method defines object truthiness?|__eval__|__logic__|__truth__|__bool__|D|H
+Q25|How are Python integers internally stored?|Fixed 32-bit|Fixed 64-bit|Arbitrary precision|Floating representation|C|H
+Q26|Which module gives access to internal CPython API?|sys|os|ctypes|_ctypes|C|H
+Q27|What protocol must an iterator support?|__len__|__contains__|__iter__ and __next__|__add__|C|H
+Q28|Which exception is thrown by next() when iterator ends?|StopIteration|IterationEnd|Stop|BreakIteration|A|H
+Q29|Which module is used to inspect live stack frames?|sys|inspect|traceback|types|B|H
+Q30|Which method is used for customizing attribute access?|__attr__|__getitem__|__getattribute__|__call__|C|H
+Q31|What is the purpose of @property decorator?|Convert method to getter|Encapsulate class|Create static attribute|Caching|A|H
+Q32|Which data structure uses hashing internally?|List|Dict|Tuple|Bytes|B|H
+Q33|What is Python’s memory manager responsible for?|Garbage collection|Heap allocation|Both GC and allocation|Only reference counting|C|H
+Q34|Which type supports slicing?|List|Dict|Set|Queue|A|H
+Q35|Which protocol defines object conversion to string?|__convert__|__str__|__repr__|__format__|B|H
+Q36|Which built-in function compiles source into bytecode?|assemble()|compile()|make()|emit()|B|H
+Q37|Which module handles thread-local storage?|threading|weakref|contextvars|copy|C|H
+Q38|What does Python use for method resolution order?|DFS|BFS|C3 Linearization|Topological Sort|C|H
+Q39|Which Python type is unhashable?|Tuple|List|Frozenset|str|B|H
+Q40|Which module provides namedtuple?|functools|named|datatypes|collections|D|H
+Q41|Which decorator defines class-level method?|@static|@classmethod|@meta|@class|B|H
+Q42|Which command shows reference count of an object?|sys.refcount(x)|sys.getrefcount(x)|gc.count(x)|ref(x)|B|H
+Q43|Which function evaluates expressions safely?|eval|exec|literal_eval|compile|C|H
+Q44|What is Python’s string interning used for?|Heap cleaning|Reduce duplicates|Sorting|Encoding|B|H
+Q45|Which module handles serialization?|pickle|json|marshal|All of these|D|H
+Q46|Which function gets the bytecode of a function?|inspect.bytecode|dis.bytecode|dis.get_instructions|sys.code|C|H
+Q47|Which object attribute stores class dictionary?|__dict__|__class__|__map__|__values__|A|H
+Q48|What happens when __repr__ is missing?|__str__ is used|Exception|None printed|object id printed|A|H
+Q49|What is Python’s GIL implemented as?|Spinlock|Mutex|Semaphore|Barrier|B|H
+Q50|Which operator calls __contains__?|==|in|is|<=|B|H
+Q51|Which operator triggers __getitem__?|in|[]|()|->|B|H
+Q52|Which Python module exposes garbage collector thresholds?|gc|sys|inspect|weakref|A|H
+Q53|What happens if __eq__ is overridden without __hash__?|Hash stays same|Hash removed|Faster lookup|No change|B|H
+Q54|Which protocol allows object to be called like a function?|__call__|__run__|__invoke__|__exec__|A|H
+Q55|Which Python module gives access to low-level bytecode execution?|stack|opcode|dis|marshal|C|H
+Q56|How are default arguments stored internally?|Inside stack|Inside closure|Function object’s __defaults__|Runtime cache|C|H
+Q57|Which method controls object creation in metaclasses?|__prepare__|__new__|__build__|__merge__|B|H
+Q58|What keeps track of reference cycles in CPython?|Reference counting|Cycle detector|Mark sweep|Tracing|B|H
+Q59|Which module controls interpreter recursion limit?|sys|inspect|gc|threading|A|H
+Q60|Which method defines binary addition?|__add__|__binary__|__calc__|__sum__|A|H
+Q61|Which module helps implement singletons via weak references?|weakref|gc|sys|refutils|A|H
+Q62|Which Python structure is ordered & mutable?|Tuple|List|Set|FrozenSet|B|H
+Q63|Which principle describes Python variable binding?|Static binding|Dynamic binding|Name-object binding|Value-copy binding|C|H
+Q64|Which module gives AST manipulation?|json|ast|token|marshal|B|H
+Q65|What is the return type of filter() in Python 3?|List|Filter object|Iterator|Tuple|B|H
+Q66|Which protocol supports async iteration?|__aiter__ and __anext__|__iter__|__async__|__yield__|A|H
+Q67|What happens during import execution?|Module compiled only|Module executed and cached|Only executed without cache|Parsed but never run|B|H
+Q68|Which type is used for Python function bytecode?|bytes|code object|string|ast|B|H
+Q69|Which attribute stores closure variables?|__locals__|__closure__|__freevars__|__vars__|B|H
+Q70|How are lists stored internally?|Linked list|Resizable array|Hash table|Tree|B|H
+Q71|Which module helps detect memory leaks?|gc|objgraph|weakref|resource|A|H
+Q72|Which function forces garbage collection?|gc.collect()|sys.cleanup()|force_gc()|mem.free()|A|H
+Q73|Which operator triggers __xor__?|^|&|~|<<|A|H
+Q74|Dict resizing occurs when load factor exceeds?|1.0|0.8|2.0|0.5|B|H
+Q75|What does sys.getsizeof() return?|Object recursive size|Shallow memory size|Deep size|String length|B|H
+Q76|Which string method prevents allocation via interning?|sys.intern|str.keep|str.intern|None of these|A|H
+Q77|What does del do?|Delete object|Decrease reference count|Free memory immediately|Calls finalizer directly|B|H
+Q78|What determines sorting for complex types?|__cmp__|__sort__|__lt__|__compare__|C|H
+Q79|Which module shows live object count?|gc|sys|objwatch|inspect|A|H
+Q80|Which operator invokes __floordiv__()|/|//|%|**|B|H
+Q81|Which Python file contains interpreter startup code?|site.py|startup.py|config.py|core.py|A|H
+Q82|Which module contains Python opcodes?|opcode|dis|marshal|inspect|A|H
+Q83|Which class implements Python exceptions hierarchy root?|Error|BaseException|Exception|SystemExit|B|H
+Q84|Which operator triggers __radd__?|Right-side addition|Multiplication|Left-side addition|Comparison|A|H
+Q85|What is the result of int(True)?|0|1|Error|None|B|H
+Q86|Which module loads .pyc files?|importlib|marshal|opcode|builtins|A|H
+Q87|Which operator triggers __matmul__?|@|&|$|%|A|H
+Q88|What does Python use for memory allocation?|System malloc|Custom allocator (pymalloc)|Garbage heap|Stack frames only|B|H
+Q89|Which function retrieves recursion limit?|sys.limit|sys.getrecursionlimit|gc.getlimit|inspect.depth|B|H
+Q90|What is yield from used for?|Nested generators|Async calls|Exception handling|Threading|A|H
+Q91|Which module gives access to function bytecode constants?|inspect|opcode|marshal|code|A|H
+Q92|Which Python protocol allows slicing custom objects?|__slice__|__getitem__|__cut__|__range__|B|H
+Q93|Which operator triggers __pow__?|**|^|=|//|A|H
+Q94|What does Python use for thread scheduling?|OS scheduler|Python scheduler|Round robin|Interpreter-level system|A|H
+Q95|Which method handles context manager exit?|__exit__|__leave__|__stop__|__quit__|A|H
+Q96|Which built-in function shows MRO?|inspect.mro|sys.mro|object.mro|type.mro|D|H
+Q97|Which exception is raised for invalid literal to int()?|ValueError|TypeError|SyntaxError|KeyError|A|H
+Q98|Which operator triggers __mod__?|/|//|%|**|C|H
+Q99|Which Python structure supports hashing?|List|Tuple with hashable elements|Set with mutable elements|Dict|B|H
+Q100|Which file stores compiled bytecode?|*.bytecode|*.pyc|*.pyo|*.cb|B|H
+Q101|What is the complexity of list.append() average?|O(n)|O(1)|O(log n)|O(n log n)|B|H
+Q102|Which statement is true about CPython integers?|Fixed width|Never overflow|Arbitrary precision|Signed 32-bit|C|H
+Q103|Which module compiles Python to optimized code?|py_compile|compileall|jit|builder|B|H
+Q104|Which operator triggers __lshift__?|<<|>>|<<<|>|A|H
+Q105|Which module can trace function calls?|trace|inspect|debug|linewatch|A|H
+Q106|Which method is used for shallow copy?|copy.copy|obj.clone|obj.copy|dup|A|H
+Q107|Which structure underlies sets in Python?|List|Hash table|Tree|Linked list|B|H
+Q108|Which operator uses __and__?|&|&&|and|+|A|H
+Q109|Which method customizes dir() output?|__dir__|__keys__|__members__|__all__|A|H
+Q110|What does Python use for object lifetime management?|Garbage collection only|Reference counting + GC|GC only|Tracing only|B|H
+Q111|Which file triggers module initialization?|__init__.py|__module__.py|load.py|main.py|A|H
+Q112|Which module helps profile CPU usage?|profile|sys|tracemalloc|inspect|A|H
+Q113|Which function returns deepcopy?|json.copy|copy.deepcopy|sys.clone|marshal.copy|B|H
+Q114|What is a Python closure?|Function with free variables|Recursive function|Class method|Anonymous generator|A|H
+Q115|Which function returns list of loaded modules?|sys.mods|sys.modules|importlib.modules|inspect.modules|B|H
+Q116|Which method prevents subclass instantiation?|__seal__|__final__|__new__|__block__|C|H
+Q117|Which operator triggers __truediv__?|/|//|%|**|A|H
+Q118|Which structure does deque use internally?|Array|Linked list|Circular buffer|Tree|C|H
+Q119|Which type supports weak references?|int|dict|list|user-defined class|D|H
+Q120|Which module shows memory allocation snapshots?|gc|tracemalloc|inspect|alloc|B|H
+Q121|Which operator calls __neg__?|Unary minus|Binary minus|+=|//=|A|H
+Q122|Which function loads modules dynamically?|imp.load|importlib.import_module|sys.import|module.load|B|H
+Q123|Which method controls object hashing?|__key__|__hash__|__cmp__|__eq__|B|H
+Q124|Which API exposes CPython internal reference counts?|sys.getrefcount|gc.count|inspect.refs|weakref.refcount|A|H
+Q125|Which operator triggers __ge__?|>=|<=|<|==|A|H
+Q126|Python's descriptor protocol uses which methods?|__get__|__set__|__delete__|All of these|D|H
+Q127|Which method is triggered for bool() conversion?|__logic__|__bool__|__truth__|__convert__|B|H
+Q128|Which module is used to write custom importers?|importlib|sys|inspect|modulelib|A|H
+Q129|Which function executes Python AST?|exec(compile(ast,...))|run_ast()|ast.run()|sys.eval()|A|H
+Q130|Which operator calls __invert__?|~|^|!|¬|A|H
+Q131|Which Python object is immutable?|bytearray|list|str|dict|C|H
+Q132|Which module exposes the Python C API constants?|sys|os|ctypes|inspect|C|H
+Q133|Which method is used for async context managers?|__aenter__ and __aexit__|__enter__|__async__|__await__|A|H
+Q134|Which call returns global namespace?|globals()|locals()|vars()|env()|A|H
+Q135|Which function retrieves local variables?|getloc()|locals()|inspect.locals|env.get()|B|H
+Q136|Which method defines reversed iteration?|__reverse__|__r__|__reversed__|__flip__|C|H
+Q137|Which operator uses __mul__?|*|+|/|//|A|H
+Q138|Python strings are encoded internally as?|ASCII|UTF-8|UCS-2/4 depending on build|Raw bytes|C|H
+Q139|Which library measures execution time with more accuracy?|time|timeit|datetime|clock|B|H
+Q140|Which operator uses __eq__?|==|!=|in|is|A|H
+Q141|Dict insertion order is preserved due to?|Hash table|Ordered linked buckets|Compact ordering array|AVL tree|C|H
+Q142|Which method gets executed first for class creation?|__prepare__|__build__|__init__|__meta__|A|H
+Q143|Which method defines object's bytes representation?|__bytes__|__str__|__repr__|__encode__|A|H
+Q144|Which operator triggers __rshift__?|>>|<<|>|+|A|H
+Q145|Which module detects reference cycles?|gc|inspect|debug|weakref|A|H
+Q146|Which object protocol supports hashing?|__hash__|__match__|__eq__|__value__|A|H
+Q147|Which operator triggers __lt__?|<|<=|>=|==|A|H
+Q148|Which function inspects class attributes?|dir()|list()|keys()|fields()|A|H
+Q149|Which statement about Python lists is true?|Fixed size|Auto-resizing|Immutable|Stored in tree|B|H
+Q150|Which decorator creates cached properties?|functools.cached_property|property.cached|cached.value|property.cache|A|H
+Q151|Which operator triggers __or__?|or||||\||A|H
+Q152|Which module implements protocol buffers for Python?|protobuf|marshal|pickle|buffer|A|H
+Q153|Which class handles bytecode execution frames?|FrameObject|PyFrameObject|ByteFrame|FrameCore|B|H
+Q154|What is Python's method for deep attribute resolution?|__resolve__|__getattribute__|__fetch__|__search__|B|H
+Q155|Which operator triggers __iadd__?|+=|=+|+|==|A|H
+Q156|Which method clones an object deeply?|copy.deepcopy|object.copy|obj.clone|marshal.copy|A|H
+Q157|Which module is used for creating abstract base classes?|abc|meta|abstract|oop|A|H
+Q158|Which operator invokes __contains__?|in|==|is|>|A|H
+Q159|Which module helps analyze code complexity?|ast|inspect|radon|trace|C|H
+Q160|Which operator triggers __getitem__?|[]|()|{}|<>|A|H
+Q161|Which Python optimization stores reused integers?|Integer pooling|Small integer cache|Reference banking|Object reuse kernel|B|H
+Q162|Which operator uses __isub__?|-=|--|++|-|A|H
+Q163|What data type is function annotations stored in?|__notes__|__dict__|__annotations__|__meta__|C|H
+Q164|Which module provides function signature introspection?|inspect|sys|ast|trace|A|H
+Q165|Which feature optimizes repeated attribute access?|Caching|String interning|Load fast ops|Inline caching|D|H
+Q166|Which method implements unary plus?|__pos__|__plus__|__add__|__neg__|A|H
+Q167|Which protocol identifies awaitable objects?|__await__|__async__|__aobject__|__run__|A|H
+Q168|Which operator calls __ixor__?|^=|^|*|+=|A|H
+Q169|Which Python interpreter uses tracing JIT?|PyPy|CPython|Jython|IronPython|A|H
+Q170|Which memory tool tracks allocations over time?|tracemalloc|sys.mem|gc.analyze|profmem|A|H
+Q171|Which module handles symbolic math?|sympy|math|numpy|statistics|A|H
+Q172|Which operator calls __imod__?|%=|^=|/=|:=|A|H
+Q173|Which feature enables conditional imports at runtime?|Lazy import|Dynamic import|Import rewriting|Code hooking|B|H
+Q174|Which operator uses __imul__?|*=|=/|+*|**=|A|H
+Q175|Which function lists thread IDs?|threading.ids|threading.enumerate|os.threads|sys.threads|B|H
+Q176|Which operator triggers __ipow__?|**=|*=|/=|+=|A|H
+Q177|Which operator uses __iand__?|&=|&&|and|+&|A|H
+Q178|Which operator uses __ior__?|\|=|or|=||/|A|H
+Q179|Which Python feature supports lazy evaluation?|Generators|Lists|Dicts|Sets|A|H
+Q180|What is the size of Python’s pointer on 64-bit CPython?|4 bytes|8 bytes|16 bytes|Depends on OS|B|H
+Q181|Which module allows bytecode manipulation?|bytecode|marshal|opcode|inspect|A|H
+Q182|What does __index__ control?|Integer conversion for slicing|Float conversion|String cast|Bool conversion|A|H
+Q183|Which module performs static code analysis?|pyflakes|ast|marshal|debug|A|H
+Q184|What happens when __iter__ returns self?|Object becomes its own iterator|Error|Fast iteration|Recursive loop|A|H
+Q185|Which Python data structure is implemented as chained hash table?|dict|list|tuple|str|A|H
+Q186|What does sys.setswitchinterval modify?|Thread switching interval|GIL size|Memory threshold|GC frequency|A|H
+Q187|Which method is used by repr()?|__repr__|__str__|__disp__|__info__|A|H
+Q188|Which module can display call graphs?|pycallgraph|inspect|sys|graphviz|A|H
+Q189|Which type supports buffer protocol?|bytearray|list|dict|set|A|H
+Q190|Which module handles asynchronous event loop?|asyncio|threading|time|events|A|H
+Q191|Which operator invokes __round__?|round()|[][]|()|{}|A|H
+Q192|Which protocol returns length?|__count__|__len__|__size__|__measure__|B|H
+Q193|Which module holds Python token definitions?|token|lexer|ast|parse|A|H
+Q194|Which operator triggers __delitem__?|del x[i]|del x|remove|pop|A|H
+Q195|Which method runs when copying via copy.copy()?|__copy__|__clone__|__duplicate__|__new__|A|H
+Q196|Which method loads class attribute first?|__getattribute__|__getattr__|__attr__|__lookup__|A|H
+Q197|Which operator uses __contains__?|in|==|<=|>=|A|H
+Q198|Which operator triggers __rsub__?|a - b|b - a when left operand lacks __sub__|a + b|a * b|B|H
+Q199|Which module helps build Python bytecode instructions?|opcode|bytecode|marshal|compiler|B|H
+Q200|Which operator triggers __await__?|await|async|yield|async for|A|H

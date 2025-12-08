@@ -1,0 +1,100 @@
+Q1|What is the capital of France?|Berlin|Rome|Paris|Madrid|C|E
+Q2|Which planet is known as the Red Planet?|Earth|Mars|Jupiter|Venus|B|E
+Q3|How many days are there in a week?|5|6|7|8|C|E
+Q4|Which animal is known as the King of the Jungle?|Tiger|Elephant|Lion|Bear|C|E
+Q5|Which gas do plants absorb?|Oxygen|Carbon Dioxide|Nitrogen|Helium|B|E
+Q6|What is H2O commonly known as?|Salt|Water|Sugar|Oil|B|E
+Q7|How many continents are there?|5|6|7|8|C|E
+Q8|Which shape has three sides?|Square|Triangle|Circle|Pentagon|B|E
+Q9|What part of the plant conducts photosynthesis?|Stem|Leaf|Root|Flower|B|E
+Q10|Which currency is used in the USA?|Euro|Dollar|Pound|Yen|B|E
+Q11|How many hours are in a day?|12|24|36|48|B|E
+Q12|What color is the sky on a clear day?|Red|Blue|Green|White|B|E
+Q13|Which is the largest ocean?|Atlantic|Indian|Arctic|Pacific|D|E
+Q14|How many letters are in the English alphabet?|24|25|26|27|C|E
+Q15|Which device is used to make phone calls?|Radio|Telephone|Television|Computer|B|E
+Q16|What is the freezing point of water (in °C)?|0|10|50|100|A|E
+Q17|Which number comes after 9?|8|11|10|12|C|E
+Q18|Which animal says "Moo"?|Dog|Cat|Cow|Sheep|C|E
+Q19|Which fruit is yellow and curved?|Apple|Banana|Orange|Pear|B|E
+Q20|Who wrote "Romeo and Juliet"?|Shakespeare|Dickens|Hemingway|Tolstoy|A|E
+Q21|What do bees produce?|Milk|Wax|Honey|Juice|C|E
+Q22|Which organ pumps blood?|Brain|Heart|Lungs|Liver|B|E
+Q23|Which is the smallest prime number?|0|1|2|3|C|E
+Q24|Which metal is liquid at room temperature?|Gold|Mercury|Iron|Silver|B|E
+Q25|How many sides does a square have?|3|4|5|6|B|E
+Q26|Which of these is a primary color?|Green|Blue|Purple|Pink|B|E
+Q27|Which country invented pizza?|USA|France|Italy|China|C|E
+Q28|What is the boiling point of water (°C)?|50|100|150|200|B|E
+Q29|What is the largest mammal?|Elephant|Blue Whale|Giraffe|Rhino|B|E
+Q30|Which superhero can fly?|Batman|Superman|Hulk|Flash|B|E
+Q31|Which month has 28 days?|February|June|October|December|A|E
+Q32|2 + 2 = ?|3|4|5|6|B|E
+Q33|What is the opposite of hot?|Warm|Cold|Cool|Boiling|B|E
+Q34|Which bird cannot fly?|Crow|Sparrow|Ostrich|Pigeon|C|E
+Q35|A baby cat is called?|Puppy|Kitten|Cub|Calf|B|E
+Q36|Which instrument has keys?|Drum|Guitar|Piano|Flute|C|E
+Q37|Which country is known as the Land of the Rising Sun?|Korea|Japan|China|India|B|E
+Q38|Which gas do humans breathe in to survive?|Oxygen|Helium|Carbon|Nitrogen|A|E
+Q39|How many wheels does a bicycle have?|1|2|3|4|B|E
+Q40|What is the color of grass?|Red|Blue|Green|Yellow|C|E
+Q41|Who developed the theory of relativity?|Newton|Einstein|Tesla|Bohr|B|M
+Q42|Which continent has the most countries?|Asia|Europe|Africa|South America|C|M
+Q43|Which data structure uses FIFO?|Stack|Queue|Array|Tree|B|M
+Q44|Which planet has the most moons?|Earth|Mars|Jupiter|Saturn|D|M
+Q45|Who painted the Mona Lisa?|Van Gogh|Da Vinci|Picasso|Michelangelo|B|M
+Q46|What is the hardest natural substance?|Iron|Steel|Diamond|Granite|C|M
+Q47|What does CPU stand for?|Control Process Unit|Central Processing Unit|Central Program Utility|Core Processing Unit|B|M
+Q48|Which gas is most abundant in Earth's atmosphere?|Oxygen|Hydrogen|Nitrogen|CO2|C|M
+Q49|Which metal is used to make aircraft?|Copper|Aluminium|Lead|Steel|B|M
+Q50|Who wrote “1984”?|Orwell|Tolkien|Rowling|Shelley|A|M
+Q51|Which is the longest river in the world?|Amazon|Nile|Yangtze|Mississippi|B|M
+Q52|Which country hosted the 2016 Olympics?|China|Russia|Brazil|Japan|C|M
+Q53|Binary of 10 is?|0011|1010|1111|0101|B|M
+Q54|Which is the smallest bone in human body?|Femur|Stapes|Ulna|Rib|B|M
+Q55|Which vitamin is produced by sunlight?|A|B|C|D|D|M
+Q56|Which organ detoxifies blood?|Heart|Liver|Kidney|Lungs|B|M
+Q57|What is the pH of water?|0|7|14|4|B|M
+Q58|Who invented the telephone?|Bell|Marconi|Jobs|Edison|A|M
+Q59|What is the largest desert?|Gobi|Sahara|Arabian|Kalahari|B|M
+Q60|Which country has the largest population?|India|China|USA|Indonesia|A|M
+Q61|What is the SI unit of force?|Newton|Joule|Pascal|Watt|A|M
+Q62|Which programming language is oldest?|Python|C|Java|Fortran|D|M
+Q63|How many bits are in a byte?|4|8|16|32|B|M
+Q64|What is the chemical symbol for gold?|Au|Ag|Gd|Go|A|M
+Q65|Which planet has rings?|Mercury|Venus|Earth|Saturn|D|M
+Q66|What is the speed of light?|1,000 km/s|50,000 km/s|300,000 km/s|150,000 km/s|C|M
+Q67|Who wrote “The Odyssey”?|Socrates|Homer|Plato|Aristotle|B|M
+Q68|Which country invented paper?|Egypt|China|Greece|India|B|M
+Q69|What type of wave is sound?|Transverse|Longitudinal|Radio|Gamma|B|M
+Q70|Which blood group is universal donor?|AB+|AB−|O+|O−|D|M
+Q71|Which is the hottest planet?|Earth|Mars|Mercury|Venus|D|M
+Q72|Which algorithm is used for shortest path?|MergeSort|Dijkstra|Kruskal|Prim|B|M
+Q73|What is the largest island?|Greenland|Madagascar|Borneo|Iceland|A|M
+Q74|Which fuel is used in nuclear reactors?|Coal|Uranium|Diesel|Methane|B|M
+Q75|Which country has the Great Barrier Reef?|USA|Australia|Philippines|India|B|M
+Q76|Who proposed the uncertainty principle?|Planck|Bohr|Heisenberg|Dirac|C|H
+Q77|Which polymer is used to make bulletproof vests?|PVC|Nylon|Kevlar|Acrylic|C|H
+Q78|What is the time complexity of binary search?|O(n)|O(log n)|O(n²)|O(1)|B|H
+Q79|Which country first used paper money?|India|Italy|China|Egypt|C|H
+Q80|Who discovered electron?|Rutherford|Thomson|Bohr|Curie|B|H
+Q81|Which gas causes global warming the most?|CO2|N2|O2|H2|A|H
+Q82|Which branch studies fossils?|Zoology|Botany|Geology|Paleontology|D|H
+Q83|What is the heaviest naturally occurring element?|Iron|Uranium|Plutonium|Lead|B|H
+Q84|Which algorithm is used for encryption?|Bubble Sort|AES|Dijkstra|SHA-256|B|H
+Q85|Who wrote “A Brief History of Time”?|Einstein|Hawking|Tyson|Sagan|B|H
+Q86|What is stored in the mitochondria?|DNA|ATP|Nutrients|Water|B|H
+Q87|Which planet rotates backwards?|Mercury|Earth|Venus|Neptune|C|H
+Q88|What is the chemical name of table salt?|Sodium Oxide|Sodium Chloride|Potassium Chloride|Magnesium Sulfate|B|H
+Q89|What is the main component of natural gas?|Propane|Methane|Butane|Ethane|B|H
+Q90|What is the SI unit of electric resistance?|Watt|Ohm|Volt|Tesla|B|H
+Q91|Who discovered Penicillin?|Pasteur|Fleming|Darwin|Faraday|B|H
+Q92|Which element has highest melting point?|Iron|Tungsten|Carbon|Gold|B|H
+Q93|Which protocol secures websites?|FTP|SMTP|HTTP|HTTPS|D|H
+Q94|Which galaxy is nearest to Milky Way?|Triangulum|Andromeda|Whirlpool|Sombrero|B|H
+Q95|What is quantum entanglement about?|Force|Heat|Particle correlation|Magnetism|C|H
+Q96|Which sorting algorithm is fastest on average?|Bubble|Selection|Merge Sort|Insertion|C|H
+Q97|Who developed calculus first?|Newton|Einstein|Gauss|Pythagoras|A|H
+Q98|Which blood vessel carries oxygenated blood from lungs?|Aorta|Pulmonary Artery|Pulmonary Vein|Vena Cava|C|H
+Q99|What does BIOS stand for?|Binary Input OS|Basic Input Output System|Built-in Operator System|Base Internal Output System|B|H
+Q100|What is the half-life of Carbon-14?|100 years|5730 years|10,000 years|100,000 years|B|H

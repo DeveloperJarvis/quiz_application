@@ -1,0 +1,50 @@
+Q1|What is the output of sorted({3,1,2}, key=lambda x: -x)?|[3,2,1]|[1,2,3]|[2,1,3]|Error|A|HARD
+Q2|Which protocol does Python’s descriptor mechanism rely on?|__get__|__lookup__|__resolve__|__bind__|A|HARD
+Q3|Which method allows overriding attribute access for missing attributes?|__getattr__|__getattribute__|__missing__|__resolve__|A|HARD
+Q4|What is the time complexity of bisect.insort for inserting in a list?|O(log n)|O(n)|O(1)|O(n log n)|B|HARD
+Q5|What does functools.lru_cache store internally?|Weak references|Function bytecode|Call arguments + results|AST nodes|C|HARD
+Q6|Which structure is used internally by CPython for dictionaries?|Hash table with open addressing|AVL tree|Red-black tree|B-tree|A|HARD
+Q7|What happens when __getattribute__ and __getattr__ are both defined?|__getattribute__ always runs first|__getattr__ runs first|They run randomly|__getattr__ overrides __getattribute__|A|HARD
+Q8|Which Python feature enables cooperative multiple inheritance?|Method Resolution Order|Super Proxy|Type Coercion|Dynamic Dispatch|A|HARD
+Q9|Which module exposes low-level bytecode instructions?|opcode|inspect|dis|marshal|C|HARD
+Q10|Which keyword prevents a context manager from suppressing exceptions?|yield|raise|return False|return True|C|HARD
+Q11|What is guaranteed by Python’s GIL?|Only one thread executes bytecode at a time|Threads cannot run|Only C code runs|Threading is disabled|A|HARD
+Q12|What is the output of: (lambda x: x.append(4) or x)([1,2,3])?|[1,2,3,4]|None|SyntaxError|[4]|A|HARD
+Q13|Which data structure ensures amortized O(1) append in CPython lists?|Dynamic Array|Linked List|Deque|Rope|A|HARD
+Q14|What does sys.intern do?|Caches strings|Converts strings to bytes|Encrypts strings|Places strings in weakref storage|A|HARD
+Q15|Which function gives the memory footprint of an object?|sys.getsizeof|memoryview|gc.get_objects|tracemalloc.sizeof|A|HARD
+Q16|Which feature enables creating classes dynamically?|type()|super()|mro()|classmethod|A|HARD
+Q17|Which Python mechanism powers decorators?|Function wrapping|AST rewrite|Macro expansion|Bytecode injection|A|HARD
+Q18|Which of the following is NOT a valid metaclass operation?|Modifying class dict|Adding new methods|Blocking inheritance tree|Customizing __call__|C|HARD
+Q19|What does collections.ChainMap not support efficiently?|Lookups|Insertions|Updates|Reversals|D|HARD
+Q20|Which object cannot be weakly referenced?|int|class instance|function|user-defined class|A|HARD
+Q21|Which import mechanism allows loading modules from custom sources?|importlib.machinery|sys.path|PYTHONSTARTUP|marshal|A|HARD
+Q22|What is the return type of map() in Python 3?|list|iterator|generator|map object|D|HARD
+Q23|Which built-in ensures deterministic ordering in dict operations?|Hash randomization|OrderedDict only|Stable hash algorithm|Insertion-order preservation|D|HARD
+Q24|Which exception is thrown on generator.send(None) before iteration?|StopIteration|TypeError|ValueError|No exception|D|HARD
+Q25|Which type supports buffer protocol?|memoryview|tuple|str (Py3)|dict|A|HARD
+Q26|Which module provides function annotations introspection?|inspect|types|ast|functools|A|HARD
+Q27|What is the output of bool(re.match("a*", ""))?|True|False|Error|None|A|HARD
+Q28|Which algorithm powers CPython list.sort?|Timsort|Mergesort|Quicksort|Heapsort|A|HARD
+Q29|Which process isolates Python modules during import?|ImportLock|GIL|ModuleSandbox|Namespace Isolation|A|HARD
+Q30|Which feature allows modifying bytecode at runtime?|code object rewriting|bytearray|marshal|tokenizer|A|HARD
+Q31|Which module can execute Python code safely with limited globals?|RestrictedPython|subprocess|sandbox|safeexec|A|HARD
+Q32|Which statement about async/await is true?|Implements cooperative multitasking|Threading replacement|Uses OS signals|Runs in parallel always|A|HARD
+Q33|Which operator is overloaded through __matmul__?|@|*|**|//|A|HARD
+Q34|What is the purpose of __slots__?|Reduce memory usage|Enforce immutability|Improve CPU cache|Remove inheritance|A|HARD
+Q35|Which is NOT true of Python closures?|They capture variables by value|They capture variables by reference|They store free variables|They form a cell object|A|HARD
+Q36|What does yield from do?|Delegate to subgenerator|Duplicate yield|Flatten iterables|Execute coroutine|A|HARD
+Q37|Which tool dumps low-level symbol tables?|symtable|inspect|dis|marshal|A|HARD
+Q38|What is the type of `type(type)`?|type|object|metaclass|module|A|HARD
+Q39|Which module provides AST transformation APIs?|ast|tokenize|parser|opcode|A|HARD
+Q40|Which error appears when using async outside an event loop?|RuntimeError|SyntaxError|ValueError|AsyncError|A|HARD
+Q41|Which builtin prevents hash collisions in strings?|Randomized hashing|Bloom filter|CRCs|Bitmask|A|HARD
+Q42|Which of these is atomic in CPython?|list.append|list.sort|x += 1|set.add for all types|A|HARD
+Q43|What does gc.collect() return?|Unreachable objects found|Memory reclaimed|Generation count|Bytes freed|A|HARD
+Q44|Which one is NOT a coroutine scheduler?|asyncio|trio|curio|pickle|D|HARD
+Q45|What representation is used for Python floats?|IEEE 754 double|Quad precision|Arbitrary precision|Platform-defined|A|HARD
+Q46|Which module deals with symbol resolution during compile phase?|symtable|marshal|tokenize|codecs|A|HARD
+Q47|Which built-in function triggers method resolution?|super|dir|min|max|A|HARD
+Q48|Which operator invokes __invert__?|~|!|^|%|A|HARD
+Q49|Which module provides low-level frame objects?|inspect|frameinfo|sysframe|stacktools|A|HARD
+Q50|Which function returns reference counts?|sys.getrefcount|gc.count|refcount()|counter|A|HARD

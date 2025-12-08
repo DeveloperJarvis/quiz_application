@@ -1,0 +1,1000 @@
+Q1|What is the output of the following code: print(list(map(lambda x: x**2, [1,2,3,4])))?|[1,2,3,4]|[1,4,9,16]|[2,4,6,8]|[1,8,27,64]|B|Hard
+Q2|Which of the following is a correct way to create a set in Python?|{1,2,3}|[1,2,3]|(1,2,3)|set([1,2,3])|D|Hard
+Q3|What is the output of the code: print("Python"[::-1])?|Python|nohtyP|P|y|B|Hard
+Q4|Which of these methods can be used to add elements to a dictionary?|append()|add()|update()|insert()|C|Hard
+Q5|What is the output of: bool(0) + bool(1) + bool([])?|0|1|2|3|C|Hard
+Q6|Which Python data structure does not allow duplicate elements?|List|Dictionary|Tuple|Set|D|Hard
+Q7|What does the zip() function return in Python?|A list of tuples|A dictionary|A tuple|A set|A|Hard
+Q8|Which of the following statements about Python functions is correct?|Functions cannot return values|Functions can return multiple values|Functions must always take parameters|Functions are always global|B|Hard
+Q9|What is the difference between @staticmethod and @classmethod?|staticmethod receives cls|classmethod receives self|staticmethod receives no implicit argument|classmethod cannot access class variables|C|Hard
+Q10|Which of these is used to handle exceptions in Python?|try/except|if/else|for/while|switch/case|A|Hard
+Q11|What is the output of: print(0.1 + 0.2 == 0.3)?|True|False|Error|0.3|B|Hard
+Q12|Which of the following is immutable?|List|Set|Tuple|Dictionary|C|Hard
+Q13|What is the result of: 'abc'.encode('utf-8')?|b'abc'|'abc'|Error|None|A|Hard
+Q14|How do you create a Python virtual environment?|python -m venv env|python create env|virtualenv python|pyenv install|A|Hard
+Q15|What is the output of: len({'a':1, 'b':2})?|1|2|3|Error|B|Hard
+Q16|Which of the following is true about Python’s garbage collection?|Manual memory management|Automatic memory management|No memory management|Memory must be freed explicitly|B|Hard
+Q17|What will be the output of: print(type(lambda x: x))?|<class 'function'>|<class 'lambda'>|<class 'object'>|<class 'method'>|A|Hard
+Q18|Which operator is used for floor division in Python?|/|//|%|**|B|Hard
+Q19|Which of the following is true about Python's GIL?|It allows true multithreading|It prevents multithreading|It ensures atomic operations for bytecode|It manages memory manually|C|Hard
+Q20|Which method of a list can be used to remove all items?|clear()|delete()|remove_all()|pop()|A|Hard
+Q21|Which module can be used for regular expressions in Python?|regex|re|pyregex|expression|B|Hard
+Q22|What will be the output of: [i for i in range(5) if i%2 == 0]|[0,1,2,3,4]|[0,2,4]|[1,3]|[2,4]|B|Hard
+Q23|What is the output of: ' '.join(['Python', 'is', 'fun'])?|Python_is_fun|Pythonisfun|Python is fun|Python-is-fun|C|Hard
+Q24|Which of these is not a valid Python keyword?|with|pass|lambda|then|D|Hard
+Q25|What is the output of: all([True, 1, ''])?|True|False|Error|None|B|Hard
+Q26|What does the 'nonlocal' keyword do?|Access global variable|Access enclosing scope variable|Access local variable|Create class variable|B|Hard
+Q27|Which built-in function can convert a string to a float?|int()|float()|str()|decimal()|B|Hard
+Q28|What is the output of: [1,2,3]*2?|[1,2,3,1,2,3]|[2,4,6]|Error|None|A|Hard
+Q29|Which of these statements is true about Python lists?|Lists are immutable|Lists can contain mixed types|Lists cannot contain duplicates|Lists support only integers|B|Hard
+Q30|What is the result of: type([]) is list?|True|False|None|Error|A|Hard
+Q31|Which of the following methods adds an element at the end of a list?|append()|insert()|add()|extend()|A|Hard
+Q32|What is the output of: set([1,2,2,3])?|[1,2,3]|{1,2,3}|(1,2,3)|Error|B|Hard
+Q33|What will be the output of: 5//2?|2.5|2|3|Error|B|Hard
+Q34|What does the dir() function do?|Returns variable names|Returns functions only|Lists attributes and methods|Creates a directory|C|Hard
+Q35|Which of the following will create a dictionary?|{}|[]|()|set()|A|Hard
+Q36|What is the output of: bool('False')?|True|False|Error|0|A|Hard
+Q37|Which Python module allows JSON parsing?|json|xml|pickle|os|A|Hard
+Q38|What is the difference between shallow and deep copy?|Shallow copies all objects recursively|Deep copies only top-level objects|Shallow copies top-level objects, deep copies nested objects|No difference|C|Hard
+Q39|Which of the following can be used to iterate over a dictionary?|for key in dict|for value in dict|for key,value in dict.items()|for k,v in dict.keys()|C|Hard
+Q40|What is the result of: 3**2**2?|81|512|9|16|A|Hard
+Q41|What is the output of: list(range(1,5))?|[1,2,3,4]|[1,2,3,4,5]|[0,1,2,3,4]|[1,2,3]|A|Hard
+Q42|Which operator checks identity in Python?|==|=|is|equals|C|Hard
+Q43|What is the output of: sorted([3,1,2])?|[1,2,3]|[3,2,1]|[2,1,3]|[1,3,2]|A|Hard
+Q44|Which of these is not a valid variable name?|my-var|my_var|var1|_var|A|Hard
+Q45|Which method converts a string to lowercase?|upper()|lower()|capitalize()|casefold()|B|Hard
+Q46|Which method removes whitespace from both ends of a string?|strip()|trim()|clean()|remove()|A|Hard
+Q47|What is the output of: type({})?|<class 'dict'>|<class 'list'>|<class 'tuple'>|<class 'set'>|A|Hard
+Q48|Which of the following is used to create an iterator?|iter()|next()|for()|while()|A|Hard
+Q49|What is the result of: 10%3?|1|2|3|0|B|Hard
+Q50|Which of these is the correct syntax for list comprehension?|[x for x in iterable]|{x for x in iterable}|(x for x in iterable)|x in iterable|A|Hard
+Q51|Which Python built-in can be used to measure memory size of an object?|sys.getsizeof()|memory.size()|object.size()|size()|A|Hard
+Q52|What is the output of: 'hello'.find('e')?|1|2|0|-1|A|Hard
+Q53|Which of these converts a list into a tuple?|tuple()|list()|set()|dict()|A|Hard
+Q54|Which of the following is not mutable?|list|dict|set|str|D|Hard
+Q55|What is the output of: bool([])|True|False|Error|None|B|Hard
+Q56|Which Python statement is used to handle exceptions?|try/except|if/else|switch/case|catch|A|Hard
+Q57|What is the output of: min([5,3,7])?|3|5|7|Error|A|Hard
+Q58|Which of the following will create a set?|{}|[]|()|set()|D|Hard
+Q59|Which function can be used to get user input?|input()|raw_input()|scan()|get()|A|Hard
+Q60|Which of the following is not a Python data type?|list|tuple|dictionary|array|D|Hard
+Q61|Which of these is used to open files?|open()|file()|read()|write()|A|Hard
+Q62|What is the output of: round(2.567,2)|2.56|2.57|2.5|2|B|Hard
+Q63|Which method is used to find index of element in a list?|index()|find()|search()|locate()|A|Hard
+Q64|Which of these is used to check object type?|type()|isinstance()|class()|object()|A|Hard
+Q65|What is the output of: list(map(str,[1,2,3]))?|['1','2','3']|[1,2,3]|['1','2','3']|Error|A|Hard
+Q66|Which of the following can be used for object serialization?|json|pickle|os|sys|B|Hard
+Q67|What is the output of: all([1, True, 0])?|True|False|Error|None|B|Hard
+Q68|Which of these functions is used to get current working directory?|cwd()|getcwd()|os.getcwd()|get_dir()|C|Hard
+Q69|Which operator is used for exponentiation?|^|**|%|//|B|Hard
+Q70|Which of the following statements is false about Python tuples?|Tuples are immutable|Tuples can contain duplicates|Tuples can be changed|Tuples can contain mixed types|C|Hard
+Q71|Which of these is correct to read a file in Python?|open('file','r')|open('file','w')|open('file','x')|open('file','a')|A|Hard
+Q72|Which method removes an element from a list at a specified index?|pop()|remove()|delete()|discard()|A|Hard
+Q73|Which of these is used to combine two dictionaries?|merge()|update()|append()|add()|B|Hard
+Q74|Which of the following is correct syntax for lambda?|lambda x: x*2|def lambda(x): x*2|lambda(x): x*2|function lambda(x)|A|Hard
+Q75|What is the output of: 'Python'.count('o')?|1|0|2|Error|A|Hard
+Q76|Which built-in function can convert a float to int?|int()|float()|str()|round()|A|Hard
+Q77|Which of these statements about Python strings is false?|Strings are immutable|Strings support slicing|Strings can contain mixed types|Strings can be changed|D|Hard
+Q78|What is the output of: ''.join(['P','y','t','h','o','n'])?|Python|P y t h o n|P-y-t-h-o-n|Error|A|Hard
+Q79|Which of these is used to remove a key-value pair from a dictionary?|pop()|remove()|delitem()|discard()|A|Hard
+Q80|Which of these is the correct way to check for membership in a list?|in|exists|contains|member|A|Hard
+Q81|What is the output of: [x**2 for x in range(3)]?|[1,4,9]|[0,1,4]|[0,1,2]|[2,4,6]|B|Hard
+Q82|Which of these is used to sort a list in descending order?|sort(reverse=True)|sorted(list,reverse=False)|sort(reverse=False)|sorted(list)|A|Hard
+Q83|Which method of string removes all leading whitespaces?|lstrip()|rstrip()|strip()|trim()|A|Hard
+Q84|Which of the following statements is true for Python’s pass statement?|Does nothing|Exits the program|Throws error|Prints message|A|Hard
+Q85|Which of the following functions can be used to read a line from a file?|readline()|read()|readlines()|input()|A|Hard
+Q86|Which operator is used for bitwise AND?|&|&&|and|^|A|Hard
+Q87|Which of these is correct to concatenate strings?|+|&|concat()|append()|A|Hard
+Q88|Which of these is used to generate a random integer?|random()|randint()|rand()|randrange()|B|Hard
+Q89|What is the output of: type((1,))?|<class 'tuple'>|<class 'list'>|<class 'dict'>|<class 'set'>|A|Hard
+Q90|Which of the following is mutable?|tuple|str|list|frozenset|C|Hard
+Q91|Which of these statements is true about Python dictionaries?|Keys must be immutable|Values must be immutable|Keys can be mutable|Dictionaries cannot be nested|A|Hard
+Q92|Which method returns a copy of a list?|copy()|clone()|duplicate()|list_copy()|A|Hard
+Q93|Which of these is used to round a number?|round()|floor()|ceil()|math()|A|Hard
+Q94|Which of these is true for Python’s pass statement?|Does nothing|Exits function|Throws error|Prints value|A|Hard
+Q95|Which of these is used to stop a loop?|break|continue|pass|exit|A|Hard
+Q96|Which of these is true about Python sets?|Sets are mutable|Sets allow duplicates|Sets are ordered|Sets are immutable|A|Hard
+Q97|What is the output of: sum([1,2,3,4])?|10|11|9|12|A|Hard
+Q98|Which of these is used to iterate with index over a list?|enumerate()|range()|zip()|index()|A|Hard
+Q99|Which of the following is correct to open a file in binary mode?|open('file','rb')|open('file','r')|open('file','wb')|open('file','w')|A|Hard
+Q100|Which of these is correct to import a module in Python?|import math|include math|#import math|require math|A|Hard
+Q101|Which of these is the correct syntax for list slicing?|list[1:5]|list(1:5)|list{1:5}|list[1-5]|A|Hard
+Q102|What is the output of: 'Python'.startswith('Py')?|True|False|Error|None|A|Hard
+Q103|Which method of string converts all characters to uppercase?|upper()|capitalize()|title()|toUpper()|A|Hard
+Q104|What is the result of: 2**3**2?|512|64|256|8|A|Hard
+Q105|Which of these is true about Python’s 'del' statement?|Deletes objects|Creates objects|Modifies objects|None of the above|A|Hard
+Q106|What will be the output of: bool(None)|True|False|Error|0|B|Hard
+Q107|Which of these can be used to iterate over a list with index?|enumerate()|range()|zip()|iter()|A|Hard
+Q108|Which of the following statements about Python’s memory management is true?|Automatic garbage collection|Manual garbage collection|No memory management|Memory must be freed explicitly|A|Hard
+Q109|What is the result of: divmod(10,3)?|(3,1)|(3,0)|(3.33,0)|Error|A|Hard
+Q110|Which of these statements is correct about Python’s range()?|range() generates numbers lazily|range() returns a list|range() returns a tuple|range() returns a set|A|Hard
+Q111|Which of these functions returns an iterator of the keys of a dictionary?|dict.keys()|dict.items()|dict.values()|dict.all()|A|Hard
+Q112|Which Python operator has the highest precedence?|()|**|*|+|A|Hard
+Q113|Which of these is used to stop the current iteration in a loop?|continue|break|pass|exit|A|Hard
+Q114|Which of these is used to skip an iteration in a loop?|continue|break|pass|exit|A|Hard
+Q115|What is the output of: isinstance(5,int)?|True|False|Error|None|A|Hard
+Q116|Which of the following statements about Python sets is false?|Sets are unordered|Sets do not allow duplicates|Sets are mutable|Sets can contain mutable elements|D|Hard
+Q117|What will be the output of: [i*i for i in range(3)]?|[0,1,4]|[1,4,9]|[0,1,2]|[2,4,6]|A|Hard
+Q118|Which of the following will create a frozenset?|frozenset([1,2,3])|set([1,2,3])|{}|[]|A|Hard
+Q119|Which of the following correctly sorts a list in ascending order?|sorted(list)|list.sort(reverse=True)|sort(list)|list.order()|A|Hard
+Q120|Which of these is used to raise an exception?|raise|throw|except|try|A|Hard
+Q121|Which of these statements is true about Python’s pass statement?|Does nothing|Throws error|Exits function|Stops execution|A|Hard
+Q122|Which of the following is correct to open a file for writing in text mode?|open('file','w')|open('file','r')|open('file','x')|open('file','rb')|A|Hard
+Q123|Which of the following is immutable?|string|list|dict|set|A|Hard
+Q124|Which of the following can be used to get the ASCII value of a character?|ord()|chr()|ascii()|value()|A|Hard
+Q125|Which of these operators is used for bitwise OR?|&|^|~|\\||D|Hard
+Q126|Which method removes an item at a specific index from a list?|pop()|remove()|del()|discard()|A|Hard
+Q127|What is the output of: ' '.join(['Python','Rocks'])?|Python Rocks|PythonRocks|Python-Rocks|Error|A|Hard
+Q128|Which of these functions converts a string to bytes?|encode()|decode()|str()|bytes()|A|Hard
+Q129|What is the output of: list(range(5,0,-1))?|[5,4,3,2,1]|[1,2,3,4,5]|[5,4,3,2,1,0]|[0,1,2,3,4]|A|Hard
+Q130|Which of the following correctly converts a float to a string?|str(3.14)|float(3.14)|int(3.14)|to_string(3.14)|A|Hard
+Q131|Which of these statements about Python functions is false?|Functions can return multiple values|Functions cannot return values|Functions can take default arguments|Functions can be nested|B|Hard
+Q132|Which operator is used for bitwise XOR?|^|&|\\||~|A|Hard
+Q133|Which of these is true for Python’s 'with' statement?|Handles resource management|Handles variable declaration|Handles exception raising|Creates a new scope|A|Hard
+Q134|Which of these converts a list to a string?|join()|split()|map()|reduce()|A|Hard
+Q135|Which of these functions returns a dictionary of local variables?|locals()|globals()|vars()|dir()|A|Hard
+Q136|Which of the following creates a tuple?|()|[]|{}|set()|A|Hard
+Q137|Which of these is correct for string formatting?|f"Hello {name}"|Hello {name}|printf("Hello %s", name)|format("Hello", name)|A|Hard
+Q138|Which of these is correct to handle multiple exceptions?|except (TypeError, ValueError)|except TypeError, ValueError|except TypeError or ValueError|except [TypeError, ValueError]|A|Hard
+Q139|Which of these returns the current module’s name?|__name__|__module__|__file__|module_name|A|Hard
+Q140|Which of the following creates a shallow copy of a list?|list.copy()|list[:]|copy.copy(list)|All of the above|D|Hard
+Q141|Which of these converts an integer to a hexadecimal string?|hex()|oct()|bin()|str()|A|Hard
+Q142|Which of the following is true about Python dictionaries?|Keys are immutable|Values are immutable|Keys can be mutable|Values cannot be mutable|A|Hard
+Q143|Which function is used to read all lines from a file?|readlines()|read()|readline()|input()|A|Hard
+Q144|Which of these is true about Python’s lambda function?|Anonymous function|Must have a name|Cannot return a value|Can have multiple statements|A|Hard
+Q145|Which of these is used to get memory size of an object?|sys.getsizeof()|mem.size()|object.size()|size()|A|Hard
+Q146|Which of these returns a reversed iterator of a sequence?|reversed()|reverse()|invert()|revert()|A|Hard
+Q147|Which of the following methods returns a dictionary of global variables?|globals()|locals()|vars()|dir()|A|Hard
+Q148|Which of the following correctly creates a Python set?|set([1,2,3])|[1,2,3]|(1,2,3)|{}|A|Hard
+Q149|Which of these methods removes leading whitespace from a string?|lstrip()|rstrip()|strip()|trim()|A|Hard
+Q150|Which of the following is used to create an object in Python?|ClassName()|class ClassName|object ClassName|new ClassName|A|Hard
+Q151|What is the output of: list(map(lambda x:x+1,[1,2,3]))?|[2,3,4]|[1,2,3]|[0,1,2]|Error|A|Hard
+Q152|Which of these statements is correct for Python sets?|Sets are unordered|Sets are ordered|Sets allow duplicates|Sets are immutable|A|Hard
+Q153|Which of these functions removes all elements from a list?|clear()|remove()|delete()|pop()|A|Hard
+Q154|Which of these statements about Python dictionaries is false?|Keys are immutable|Values are mutable|Dictionaries are ordered from 3.7|Keys can be duplicated|D|Hard
+Q155|Which of the following is a mutable data type?|tuple|str|list|frozenset|C|Hard
+Q156|Which of these returns a string representation of an object?|str()|repr()|ascii()|All of the above|D|Hard
+Q157|Which of these is used to import a specific function from a module?|from module import function|import module.function|#import module.function|require module.function|A|Hard
+Q158|Which of these is correct to check whether a file exists?|os.path.exists('file')|os.exists('file')|exists('file')|file.exists()|A|Hard
+Q159|Which of the following is used for integer division?|//|/|%|**|A|Hard
+Q160|Which of these is correct for Python comments?|# comment|// comment|/* comment */|<!-- comment -->|A|Hard
+Q161|Which of these is true about Python’s recursion limit?|Default is 1000|Default is 500|Default is unlimited|Default is 2000|A|Hard
+Q162|Which of the following creates a deep copy of a list?|copy.deepcopy(list)|list.copy()|list[:]|All of the above|A|Hard
+Q163|Which of these is used to iterate through multiple lists simultaneously?|zip()|enumerate()|map()|range()|A|Hard
+Q164|Which of these statements about Python functions is true?|Functions can be nested|Functions cannot return multiple values|Functions must have a name|Functions cannot take default arguments|A|Hard
+Q165|Which of the following converts a string to a list of characters?|list()|str()|tuple()|dict()|A|Hard
+Q166|Which of these can be used to merge two dictionaries in Python 3.9+?|dict1 | dict2|dict1 + dict2|merge(dict1,dict2)|update(dict1,dict2)|A|Hard
+Q167|Which of the following returns a range object?|range()|list()|tuple()|set()|A|Hard
+Q168|Which of these is correct to get the type of a variable?|type(var)|typeof(var)|var.type()|gettype(var)|A|Hard
+Q169|Which of the following is correct syntax for a Python class?|class ClassName:|Class ClassName:|class ClassName()|def ClassName:|A|Hard
+Q170|Which of these statements about Python dictionaries is true?|Dictionaries are ordered from Python 3.7|Dictionaries are immutable|Dictionaries cannot contain duplicates|Dictionary keys can be mutable|A|Hard
+Q171|Which of these is used to remove a key from a dictionary?|pop()|remove()|delete()|discard()|A|Hard
+Q172|Which of these converts a tuple to a list?|list()|tuple()|set()|dict()|A|Hard
+Q173|Which of these operators performs bitwise NOT?|~|!|not|^|A|Hard
+Q174|Which of these statements is true about Python strings?|Strings are immutable|Strings are mutable|Strings cannot be sliced|Strings can contain only letters|A|Hard
+Q175|Which of these is correct to open a file in append mode?|open('file','a')|open('file','w')|open('file','r')|open('file','x')|A|Hard
+Q176|Which of these functions returns an iterator?|iter()|next()|range()|list()|A|Hard
+Q177|Which of these converts an integer to binary?|bin()|oct()|hex()|str()|A|Hard
+Q178|Which of these statements about Python sets is true?|Sets are mutable|Sets are immutable|Sets allow duplicates|Sets are ordered|A|Hard
+Q179|Which of these converts a list to a dictionary?|dict()|list()|set()|tuple()|A|Hard
+Q180|Which of these returns the first element of a list?|list[0]|list(1)|list.get(0)|list.first()|A|Hard
+Q181|Which of these converts a string to lowercase?|lower()|upper()|capitalize()|casefold()|A|Hard
+Q182|Which of these returns the remainder of division?|%|//|/|**|A|Hard
+Q183|Which of these is correct to check whether a key exists in a dictionary?|key in dict|dict.has(key)|dict.exists(key)|dict.check(key)|A|Hard
+Q184|Which of these methods adds an element at the end of a list?|append()|insert()|extend()|add()|A|Hard
+Q185|Which of these statements about Python tuples is true?|Tuples are immutable|Tuples are mutable|Tuples can contain only integers|Tuples allow duplicates|A|Hard
+Q186|Which of these converts a list of strings to a single string?|join()|split()|map()|reduce()|A|Hard
+Q187|Which of these statements about Python dictionaries is true?|Keys are immutable|Values are immutable|Dictionaries are unordered|Keys can be duplicated|A|Hard
+Q188|Which of these creates a shallow copy of a dictionary?|dict.copy()|dict[:]|dict()|copy.dict()|A|Hard
+Q189|Which of these is used to remove an element from a set?|remove()|pop()|discard()|All of the above|D|Hard
+Q190|Which of these converts a string to uppercase?|upper()|lower()|capitalize()|casefold()|A|Hard
+Q191|Which of these is true about Python’s global keyword?|Accesses global variables|Accesses local variables|Accesses class variables|Creates new variables|A|Hard
+Q192|Which of these is correct to handle exceptions?|try/except|if/else|switch/case|catch|A|Hard
+Q193|Which of these statements is correct about Python lists?|Lists are mutable|Lists are immutable|Lists cannot contain duplicates|Lists allow only integers|A|Hard
+Q194|Which of these converts a list of integers to a single string?|join(map(str,list))|str(list)|concat(list)|reduce(list)|A|Hard
+Q195|Which of these methods removes trailing whitespace from a string?|rstrip()|lstrip()|strip()|trim()|A|Hard
+Q196|Which of these returns the maximum value of a list?|max()|min()|sum()|average()|A|Hard
+Q197|Which of these returns the minimum value of a list?|min()|max()|sum()|average()|A|Hard
+Q198|Which of these statements is correct for Python functions?|Functions can have default arguments|Functions cannot take default arguments|Functions cannot return values|Functions cannot be nested|A|Hard
+Q199|Which of these returns a tuple from a list?|tuple()|list()|set()|dict()|A|Hard
+Q200|Which of these converts a string representing a number to an integer?|int()|str()|float()|decimal()|A|Hard
+Q201|Which of these statements about Python dictionaries is false?|Dictionaries preserve order from Python 3.7|Dictionaries are mutable|Dictionary keys must be immutable|Dictionary keys can be duplicated|D|Hard
+Q202|Which of these methods removes an item at a specific index from a list?|pop()|remove()|del()|discard()|A|Hard
+Q203|Which of these functions returns a floating point remainder?|math.fmod()|%|/|//|A|Hard
+Q204|Which of these converts an integer to octal?|oct()|hex()|bin()|int()|A|Hard
+Q205|Which of these statements is true about Python’s break statement?|Exits the current loop|Skips the iteration|Stops program execution|Passes control to next function|A|Hard
+Q206|Which of these statements is true about Python’s continue statement?|Skips the current iteration|Exits the loop|Stops the program|Ends the function|A|Hard
+Q207|Which of these statements is true about Python sets?|Sets are unordered|Sets allow duplicates|Sets are immutable|Sets are indexed|A|Hard
+Q208|Which of these converts a string to a floating point number?|float()|int()|str()|decimal()|A|Hard
+Q209|Which of these returns the number of elements in a list?|len()|count()|size()|length()|A|Hard
+Q210|Which of these statements about Python lists is false?|Lists are mutable|Lists can contain duplicates|Lists are ordered|Lists are immutable|D|Hard
+Q211|Which of these returns the type of an object?|type()|class()|object_type()|typeof()|A|Hard
+Q212|Which of these statements is correct about Python strings?|Strings are immutable|Strings are mutable|Strings are indexed by integers starting at 1|Strings allow deletion of characters|A|Hard
+Q213|Which of these returns the ASCII character of an integer value?|chr()|ord()|ascii()|char()|A|Hard
+Q214|Which of these functions returns the largest item from an iterable?|max()|min()|sum()|all()|A|Hard
+Q215|Which of these functions returns the smallest item from an iterable?|min()|max()|sum()|all()|A|Hard
+Q216|Which of these is true about Python’s while loop?|Executes as long as the condition is True|Executes at least once|Executes exactly once|Executes when condition is False|A|Hard
+Q217|Which of these converts a string to a list of words?|split()|join()|map()|reduce()|A|Hard
+Q218|Which of these returns a reversed iterator?|reversed()|reverse()|invert()|revert()|A|Hard
+Q219|Which of these statements about Python modules is true?|Modules can contain functions, classes, and variables|Modules cannot contain functions|Modules cannot be imported|Modules are only for classes|A|Hard
+Q220|Which of these is used to combine multiple iterables element-wise?|zip()|enumerate()|map()|reduce()|A|Hard
+Q221|Which of these returns an object’s attributes?|dir()|vars()|locals()|globals()|A|Hard
+Q222|Which of these statements about Python memory management is true?|Python has automatic garbage collection|Python requires manual memory management|Python has no memory management|Python frees memory only at exit|A|Hard
+Q223|Which of these correctly creates a Python set from a list?|set([1,2,3])|[1,2,3]|{1,2,3}|()|A|Hard
+Q224|Which of these statements about Python’s pass statement is true?|Does nothing|Exits the loop|Raises an exception|Stops execution|A|Hard
+Q225|Which of these converts a string to title case?|title()|upper()|capitalize()|casefold()|A|Hard
+Q226|Which of these statements about Python lambda is true?|Lambda is an anonymous function|Lambda must have a name|Lambda cannot return a value|Lambda can have multiple statements|A|Hard
+Q227|Which of these is used to remove all elements from a list?|clear()|remove()|delete()|pop()|A|Hard
+Q228|Which of these statements about Python tuples is false?|Tuples are immutable|Tuples can contain duplicates|Tuples are ordered|Tuples are mutable|D|Hard
+Q229|Which of these statements about Python dictionaries is false?|Keys are immutable|Values are mutable|Dictionaries are unordered|Keys cannot be duplicated|C|Hard
+Q230|Which of these returns the ASCII value of a character?|ord()|chr()|ascii()|value()|A|Hard
+Q231|Which of these converts a float to an integer?|int()|float()|str()|decimal()|A|Hard
+Q232|Which of these correctly opens a file in read mode?|open('file','r')|open('file','w')|open('file','a')|open('file','x')|A|Hard
+Q233|Which of these statements about Python’s global keyword is true?|Accesses global variables|Accesses local variables|Accesses class variables|Creates new variables|A|Hard
+Q234|Which of these is correct syntax for Python exception handling?|try/except|try/catch|try/finally|catch/except|A|Hard
+Q235|Which of these statements about Python list slicing is true?|list[start:end] returns a sublist|list(start:end) returns a sublist|list{start:end} returns a sublist|slice(list,start,end) returns a sublist|A|Hard
+Q236|Which of these converts a list to a tuple?|tuple()|list()|set()|dict()|A|Hard
+Q237|Which of these statements about Python strings is true?|Strings are immutable|Strings are mutable|Strings are indexed from 1|Strings allow deletion|A|Hard
+Q238|Which of these is used to iterate over a sequence with index?|enumerate()|zip()|map()|range()|A|Hard
+Q239|Which of these converts a dictionary to a list of keys?|list(dict.keys())|list(dict)|list(dict.items())|list(dict.values())|A|Hard
+Q240|Which of these is used to check the type of an object?|type()|class()|typeof()|object_type()|A|Hard
+Q241|Which of these statements about Python sets is false?|Sets allow duplicates|Sets are mutable|Sets are unordered|All of the above|A|Hard
+Q242|Which of these converts a string to lowercase?|lower()|upper()|capitalize()|casefold()|A|Hard
+Q243|Which of these statements about Python functions is false?|Functions cannot return multiple values|Functions can take default arguments|Functions can be nested|Functions can return multiple values|A|Hard
+Q244|Which of these statements about Python’s 'with' statement is true?|Manages resources automatically|Creates new functions|Handles exceptions only|Defines variables|A|Hard
+Q245|Which of these converts a string to a list of characters?|list()|tuple()|set()|dict()|A|Hard
+Q246|Which of these statements about Python dictionaries is true?|Keys are immutable|Keys are mutable|Values are immutable|Keys can be duplicated|A|Hard
+Q247|Which of these is used to get the current working directory?|os.getcwd()|os.getwd()|os.curdir()|os.getcwd|A|Hard
+Q248|Which of these statements about Python numbers is true?|Integers and floats are immutable|Integers are mutable|Floats are mutable|Numbers are indexed|A|Hard
+Q249|Which of these returns the index of an element in a list?|list.index(value)|list.find(value)|list.loc(value)|list.pos(value)|A|Hard
+Q250|Which of these statements about Python operators is true?|** has higher precedence than *|+ has higher precedence than **|* has higher precedence than **|/ has higher precedence than **|A|Hard
+Q251|Which of these is correct to remove a key from a dictionary?|pop()|remove()|delete()|discard()|A|Hard
+Q252|Which of these converts a binary string to integer?|int(str,2)|int(str,10)|bin(str)|str(int)|A|Hard
+Q253|Which of these statements about Python loops is true?|for loops iterate over sequences|for loops execute at least once|while loops execute zero times only|while loops execute exactly once|A|Hard
+Q254|Which of these is correct to read a single line from a file?|readline()|read()|readlines()|input()|A|Hard
+Q255|Which of these statements about Python’s garbage collection is true?|Automatic memory management|Manual memory management|No memory management|Memory freed only at exit|A|Hard
+Q256|Which of these statements about Python’s memory management is false?|Python uses reference counting|Python frees objects manually|Python uses garbage collection|All of the above|B|Hard
+Q257|Which of these converts a float to a string?|str()|float()|int()|decimal()|A|Hard
+Q258|Which of these statements about Python tuples is true?|Tuples are immutable|Tuples are mutable|Tuples allow deletion|Tuples cannot contain duplicates|A|Hard
+Q259|Which of these is used to iterate through multiple sequences simultaneously?|zip()|enumerate()|map()|range()|A|Hard
+Q260|Which of these is correct for string formatting?|f"Hello {name}"|format("Hello")|printf("Hello %s", name)|"Hello {name}"|A|Hard
+Q261|Which of these statements about Python classes is true?|Classes define objects|Classes cannot have methods|Classes cannot have attributes|Classes are functions|A|Hard
+Q262|Which of these is true about Python object creation?|Objects are created by calling class|Objects are created automatically|Objects are global|Objects are created by variables|A|Hard
+Q263|Which of these statements about Python inheritance is true?|Supports single and multiple inheritance|Supports only single inheritance|Supports only multiple inheritance|Does not support inheritance|A|Hard
+Q264|Which of these statements about Python polymorphism is true?|Same function name behaves differently in different contexts|Polymorphism is not supported|Polymorphism is only for numbers|Polymorphism is only for strings|A|Hard
+Q265|Which of these statements about Python encapsulation is true?|Private variables are prefixed with __|Public variables are prefixed with _|Python has no encapsulation|All variables are private by default|A|Hard
+Q266|Which of these statements about Python exceptions is true?|Exceptions handle errors|Exceptions cannot be caught|Exceptions stop program execution|Exceptions do not exist|A|Hard
+Q267|Which of these is correct to catch multiple exceptions?|except (TypeError, ValueError)|except TypeError, ValueError|except TypeError or ValueError|except [TypeError, ValueError]|A|Hard
+Q268|Which of these statements about Python’s try/finally is true?|finally block always executes|finally block never executes|finally block executes only if no exception|finally block executes only if exception occurs|A|Hard
+Q269|Which of these statements about Python’s assert is true?|Used to debug code|Stops program execution|Used to define functions|Used to loop over items|A|Hard
+Q270|Which of these is correct to create a generator?|def func(): yield x|def func(): return x|generator(): def x|x = generator()|A|Hard
+Q271|Which of these statements about Python decorators is true?|Decorators modify functions or methods|Decorators delete functions|Decorators create classes|Decorators are variables|A|Hard
+Q272|Which of these statements about Python context managers is true?|with statement is used|Context managers cannot exist|with statement deletes files|with statement creates variables|A|Hard
+Q273|Which of these statements about Python iterators is true?|Iterators implement __iter__() and __next__()|Iterators are lists|Iterators cannot iterate|Iterators are immutable|A|Hard
+Q274|Which of these statements about Python generators is true?|Yield returns an iterator lazily|Yield executes immediately|Yield is used for recursion|Yield creates functions|A|Hard
+Q275|Which of these statements about Python’s comprehensions is true?|List comprehensions create lists|List comprehensions create strings|List comprehensions create sets only|List comprehensions create dictionaries only|A|Hard
+Q276|Which of these is correct to merge two dictionaries in Python 3.9+?|dict1 | dict2|dict1 + dict2|merge(dict1,dict2)|update(dict1,dict2)|A|Hard
+Q277|Which of these statements about Python’s slice object is true?|slice(start,stop,step) defines a slice|slice() deletes a list|slice() modifies elements|slice() executes loops|A|Hard
+Q278|Which of these statements about Python’s super() is true?|Accesses parent class methods|Accesses child class methods|Deletes parent class methods|Overrides child class methods|A|Hard
+Q279|Which of these statements about Python’s property decorator is true?|Allows custom getter/setter|Deletes attributes|Creates new class|Overrides methods|A|Hard
+Q280|Which of these statements about Python’s type hints is true?|Provides optional type checking|Changes runtime behavior|Enforces strict typing|Removes dynamic typing|A|Hard
+Q281|Which of these is correct to concatenate two lists?|list1 + list2|list1 * list2|concat(list1,list2)|list1 & list2|A|Hard
+Q282|Which of these statements about Python’s f-strings is true?|f-strings allow expressions inside braces|f-strings cannot use variables|f-strings create functions|f-strings remove variables|A|Hard
+Q283|Which of these statements about Python’s match-case (3.10+) is true?|Used for pattern matching|Used for loops|Used for strings only|Used for functions only|A|Hard
+Q284|Which of these statements about Python’s walrus operator (:=) is true?|Assigns value within expressions|Cannot assign values|Deletes variables|Assigns globally|A|Hard
+Q285|Which of these statements about Python’s async/await is true?|Used for asynchronous programming|Used for loops|Used for functions only|Used for strings only|A|Hard
+Q286|Which of these is correct to create a frozen set?|frozenset([1,2,3])|set([1,2,3])|{}|[]|A|Hard
+Q287|Which of these statements about Python’s type() function is true?|Returns the type of an object|Deletes an object|Changes the type of an object|Creates a new object|A|Hard
+Q288|Which of these is correct to check membership in a list?|item in list|list.has(item)|list.exists(item)|list.check(item)|A|Hard
+Q289|Which of these statements about Python’s all() function is true?|Returns True if all elements are true|Returns False if all elements are true|Deletes elements|Counts elements|A|Hard
+Q290|Which of these statements about Python’s any() function is true?|Returns True if any element is true|Returns False if any element is true|Deletes elements|Counts elements|A|Hard
+Q291|Which of these is correct to create a copy of a dictionary?|dict.copy()|dict[:] |dict()|copy.dict()|A|Hard
+Q292|Which of these statements about Python’s filter() function is true?|Filters elements based on a function|Deletes elements|Maps elements|Reduces elements|A|Hard
+Q293|Which of these statements about Python’s map() function is true?|Applies a function to each element|Deletes elements|Filters elements|Reduces elements|A|Hard
+Q294|Which of these statements about Python’s reduce() function is true?|Reduces elements to a single value|Maps elements|Filters elements|Deletes elements|A|Hard
+Q295|Which of these statements about Python’s enumerate() function is true?|Returns index and value pair|Returns only index|Returns only value|Deletes elements|A|Hard
+Q296|Which of these statements about Python’s sorted() function is true?|Returns a sorted list|Sorts in place|Deletes elements|Returns unsorted list|A|Hard
+Q297|Which of these statements about Python’s reversed() function is true?|Returns a reversed iterator|Reverses in place|Deletes elements|Reverses list permanently|A|Hard
+Q298|Which of these statements about Python’s slice() is true?|slice(start,stop,step) creates a slice object|slice() modifies a list|slice() deletes elements|slice() creates a copy|A|Hard
+Q299|Which of these statements about Python’s __init__ method is true?|Constructor method for class|Destructor method|Creates a module|Deletes an object|A|Hard
+Q300|Which of these statements about Python’s __str__ method is true?|Returns a string representation of object|Deletes object|Creates object|Modifies object|A|Hard
+Q301|Which of these statements about Python’s __repr__ method is true?|Returns an unambiguous string representation|Deletes object|Creates object|Modifies object|A|Hard
+Q302|Which of these is correct to create a class method?|@classmethod|@staticmethod|@property|@init|A|Hard
+Q303|Which of these is correct to create a static method?|@staticmethod|@classmethod|@property|@init|A|Hard
+Q304|Which of these statements about Python’s property() function is true?|Creates managed attributes|Deletes attributes|Overrides methods|Creates functions|A|Hard
+Q305|Which of these statements about Python descriptors is true?|Defines how attributes are accessed|Deletes attributes|Overrides methods|Creates functions|A|Hard
+Q306|Which of these statements about Python metaclasses is true?|Control class creation|Control object deletion|Control function execution|Control variable scope|A|Hard
+Q307|Which of these is correct syntax to inherit a class?|class Derived(Base):|class Derived->Base|class Derived::Base|class Derived(Base){}|A|Hard
+Q308|Which of these statements about Python’s multiple inheritance is true?|A class can inherit from multiple classes|A class can inherit from only one class|Multiple inheritance is not allowed|Inheritance works only with functions|A|Hard
+Q309|Which of these statements about Python’s super() with multiple inheritance is true?|Resolves method using MRO|Calls only parent class|Calls only first class|Calls all classes randomly|A|Hard
+Q310|Which of these statements about Python’s MRO (Method Resolution Order) is true?|Determines order in which base classes are searched|Determines memory layout|Determines garbage collection|Determines variable type|A|Hard
+Q311|Which of these statements about Python’s __slots__ is true?|Restricts dynamic attribute creation|Creates additional attributes|Removes memory limits|Changes inheritance|A|Hard
+Q312|Which of these statements about Python’s contextlib module is true?|Provides utilities for context managers|Provides utilities for strings|Provides utilities for math|Provides utilities for lists|A|Hard
+Q313|Which of these statements about Python’s weakref module is true?|Allows weak references to objects|Prevents garbage collection|Creates strong references|Modifies objects|A|Hard
+Q314|Which of these statements about Python’s functools module is true?|Provides higher-order functions|Provides file utilities|Provides math utilities|Provides network utilities|A|Hard
+Q315|Which of these statements about Python’s itertools module is true?|Provides iterator building tools|Provides list functions|Provides string functions|Provides network utilities|A|Hard
+Q316|Which of these statements about Python’s operator module is true?|Provides functions corresponding to operators|Provides arithmetic functions only|Provides string functions|Provides file utilities|A|Hard
+Q317|Which of these is correct to create a Python iterator from a list?|iter(list)|list.iterator()|list.iter()|iterator(list)|A|Hard
+Q318|Which of these statements about Python’s next() function is true?|Returns next item from iterator|Returns previous item|Deletes item|Modifies iterator|A|Hard
+Q319|Which of these statements about Python’s zip() function is true?|Aggregates elements from multiple iterables|Aggregates elements from one iterable|Deletes elements|Modifies iterables|A|Hard
+Q320|Which of these statements about Python’s enumerate() function is true?|Returns pairs of index and element|Returns only elements|Returns only index|Deletes elements|A|Hard
+Q321|Which of these statements about Python’s map() function is true?|Applies function to all items|Deletes items|Returns index|Filters items|A|Hard
+Q322|Which of these statements about Python’s filter() function is true?|Filters items based on a function|Maps items|Deletes items|Reduces items|A|Hard
+Q323|Which of these statements about Python’s reduce() function is true?|Reduces iterable to a single value|Deletes items|Maps items|Filters items|A|Hard
+Q324|Which of these statements about Python’s lambda is true?|Anonymous function|Named function|Class method|Module function|A|Hard
+Q325|Which of these statements about Python’s closures is true?|Function remembers variables from enclosing scope|Function deletes variables|Function ignores variables|Function resets variables|A|Hard
+Q326|Which of these statements about Python’s decorators is true?|Modify or enhance functions or methods|Deletes functions|Creates classes|Overrides modules|A|Hard
+Q327|Which of these statements about Python’s functools.wraps is true?|Preserves metadata of decorated function|Deletes decorated function|Overrides decorated function|Creates new function|A|Hard
+Q328|Which of these statements about Python’s generators is true?|Yield returns value lazily|Yield executes immediately|Yield returns None|Yield modifies global state|A|Hard
+Q329|Which of these statements about Python’s generator expressions is true?|Creates generator without defining a function|Creates list immediately|Creates string|Creates dictionary|A|Hard
+Q330|Which of these statements about Python’s asyncio module is true?|Provides asynchronous programming support|Provides synchronous programming support|Provides multiprocessing support|Provides string utilities|A|Hard
+Q331|Which of these statements about Python’s async/await is true?|Used for asynchronous tasks|Used for synchronous tasks|Used for I/O blocking|Used for math operations|A|Hard
+Q332|Which of these statements about Python’s threading module is true?|Provides threading support|Provides async support|Provides multiprocessing support|Provides list utilities|A|Hard
+Q333|Which of these statements about Python’s multiprocessing module is true?|Provides multiple process support|Provides thread support only|Provides async support only|Provides string utilities|A|Hard
+Q334|Which of these statements about Python’s queue module is true?|Provides thread-safe queues|Provides async queues only|Provides list operations|Provides string operations|A|Hard
+Q335|Which of these statements about Python’s collections module is true?|Provides specialized container datatypes|Provides math utilities|Provides string utilities|Provides file utilities|A|Hard
+Q336|Which of these statements about Python’s namedtuple is true?|Immutable lightweight object|Mutable object|Deletes object|Creates class method|A|Hard
+Q337|Which of these statements about Python’s deque is true?|Double-ended queue|Single-ended queue|Immutable list|Modifies tuple|A|Hard
+Q338|Which of these statements about Python’s Counter is true?|Counts hashable objects|Deletes objects|Maps objects|Reduces objects|A|Hard
+Q339|Which of these statements about Python’s defaultdict is true?|Provides default value for missing keys|Deletes keys|Modifies keys|Overrides keys|A|Hard
+Q340|Which of these statements about Python’s OrderedDict is true?|Maintains insertion order|Randomizes order|Deletes keys|Overrides keys|A|Hard
+Q341|Which of these statements about Python’s ChainMap is true?|Groups multiple dictionaries|Merges lists|Groups strings|Merges sets|A|Hard
+Q342|Which of these statements about Python’s heapq module is true?|Provides heap queue algorithms|Provides string algorithms|Provides math algorithms|Provides list algorithms|A|Hard
+Q343|Which of these statements about Python’s bisect module is true?|Performs array bisection for sorted lists|Splits strings|Splits lists randomly|Performs math bisect|A|Hard
+Q344|Which of these statements about Python’s array module is true?|Provides efficient arrays of basic values|Provides lists|Provides strings|Provides math arrays|A|Hard
+Q345|Which of these statements about Python’s struct module is true?|Provides conversion between Python values and C structs|Provides strings|Provides arrays|Provides math functions|A|Hard
+Q346|Which of these statements about Python’s dataclasses module is true?|Simplifies class creation with boilerplate|Deletes classes|Modifies classes|Overrides classes|A|Hard
+Q347|Which of these statements about Python’s enum module is true?|Defines enumerated constants|Deletes constants|Modifies constants|Overrides constants|A|Hard
+Q348|Which of these statements about Python’s typing module is true?|Provides type hints|Provides runtime type enforcement|Deletes types|Overrides types|A|Hard
+Q349|Which of these statements about Python’s __annotations__ is true?|Stores type hints|Stores variable values|Deletes types|Overrides types|A|Hard
+Q350|Which of these statements about Python’s pydoc module is true?|Generates documentation|Generates math functions|Generates strings|Generates files|A|Hard
+Q351|Which of these statements about Python’s importlib module is true?|Provides import utilities|Provides string utilities|Provides math utilities|Provides list utilities|A|Hard
+Q352|Which of these statements about Python’s built-in open() function is true?|Opens files|Closes files|Deletes files|Creates directories|A|Hard
+Q353|Which of these statements about Python’s os module is true?|Provides operating system utilities|Provides math utilities|Provides string utilities|Provides list utilities|A|Hard
+Q354|Which of these statements about Python’s shutil module is true?|High-level file operations|Math utilities|String utilities|List utilities|A|Hard
+Q355|Which of these statements about Python’s tempfile module is true?|Creates temporary files and directories|Deletes temporary files|Modifies files|Creates permanent files|A|Hard
+Q356|Which of these statements about Python’s logging module is true?|Provides logging utilities|Provides math utilities|Provides string utilities|Provides list utilities|A|Hard
+Q357|Which of these statements about Python’s configparser module is true?|Parses configuration files|Parses CSV files|Parses JSON files|Parses XML files|A|Hard
+Q358|Which of these statements about Python’s json module is true?|Serializes and deserializes JSON|Parses CSV files|Parses XML files|Parses INI files|A|Hard
+Q359|Which of these statements about Python’s csv module is true?|Handles CSV files|Handles JSON files|Handles XML files|Handles INI files|A|Hard
+Q360|Which of these statements about Python’s xml.etree.ElementTree module is true?|Handles XML files|Handles JSON files|Handles CSV files|Handles INI files|A|Hard
+Q361|Which of these statements about Python’s sqlite3 module is true?|Provides SQLite database support|Provides MySQL support|Provides PostgreSQL support|Provides MongoDB support|A|Hard
+Q362|Which of these statements about Python’s pickle module is true?|Serializes and deserializes Python objects|Deletes objects|Modifies objects|Overrides objects|A|Hard
+Q363|Which of these statements about Python’s shelve module is true?|Persistent dictionary-like object|Deletes dictionary|Modifies dictionary|Overrides dictionary|A|Hard
+Q364|Which of these statements about Python’s subprocess module is true?|Runs subprocesses|Runs threads|Runs multiprocessing|Runs asyncio tasks|A|Hard
+Q365|Which of these statements about Python’s socket module is true?|Provides network sockets|Provides files|Provides math functions|Provides strings|A|Hard
+Q366|Which of these statements about Python’s threading.Thread is true?|Represents a thread of execution|Represents a process|Represents a function|Represents a module|A|Hard
+Q367|Which of these statements about Python’s multiprocessing.Process is true?|Represents a process|Represents a thread|Represents a function|Represents a module|A|Hard
+Q368|Which of these statements about Python’s concurrent.futures module is true?|Provides high-level interface for asynchronously executing callables|Provides file utilities|Provides string utilities|Provides math utilities|A|Hard
+Q369|Which of these statements about Python’s queue.Queue is true?|Thread-safe FIFO queue|Thread-unsafe queue|Immutable queue|Deletes queue|A|Hard
+Q370|Which of these statements about Python’s time module is true?|Provides time-related functions|Provides string utilities|Provides math utilities|Provides list utilities|A|Hard
+Q371|Which of these statements about Python’s datetime module is true?|Handles date and time|Handles strings|Handles lists|Handles math|A|Hard
+Q372|Which of these statements about Python’s calendar module is true?|Handles calendar-related functions|Handles strings|Handles lists|Handles math|A|Hard
+Q373|Which of these statements about Python’s random module is true?|Generates random numbers|Generates sequential numbers|Generates sorted numbers|Generates fixed numbers|A|Hard
+Q374|Which of these statements about Python’s secrets module is true?|Provides cryptographically strong random numbers|Provides weak random numbers|Generates sequential numbers|Generates fixed numbers|A|Hard
+Q375|Which of these statements about Python’s hashlib module is true?|Provides hash algorithms|Provides encryption|Provides compression|Provides files|A|Hard
+Q376|Which of these statements about Python’s hmac module is true?|Provides keyed-hashing for message authentication|Provides encryption only|Provides compression|Provides files|A|Hard
+Q377|Which of these statements about Python’s base64 module is true?|Encodes and decodes base64 data|Provides encryption|Provides hashing|Provides compression|A|Hard
+Q378|Which of these statements about Python’s binascii module is true?|Converts between binary and ASCII|Provides encryption|Provides hashing|Provides compression|A|Hard
+Q379|Which of these statements about Python’s struct.pack is true?|Packs data into binary format|Packs data into string format|Packs data into list format|Packs data into file|A|Hard
+Q380|Which of these statements about Python’s struct.unpack is true?|Unpacks binary data into Python values|Unpacks strings|Unpacks lists|Unpacks files|A|Hard
+Q381|Which of these statements about Python’s memoryview is true?|Provides view of memory without copying|Copies memory|Deletes memory|Modifies memory|A|Hard
+Q382|Which of these statements about Python’s bytearray is true?|Mutable sequence of bytes|Immutable sequence of bytes|String sequence|List sequence|A|Hard
+Q383|Which of these statements about Python’s bytes is true?|Immutable sequence of bytes|Mutable sequence of bytes|String sequence|List sequence|A|Hard
+Q384|Which of these statements about Python’s ord() function is true?|Returns ASCII code of character|Returns character from ASCII code|Deletes character|Modifies character|A|Hard
+Q385|Which of these statements about Python’s chr() function is true?|Returns character from ASCII code|Returns ASCII code|Deletes character|Modifies character|A|Hard
+Q386|Which of these statements about Python’s bin() function is true?|Returns binary representation of integer|Returns octal representation|Returns hex representation|Deletes integer|A|Hard
+Q387|Which of these statements about Python’s oct() function is true?|Returns octal representation of integer|Returns binary representation|Returns hex representation|Deletes integer|A|Hard
+Q388|Which of these statements about Python’s hex() function is true?|Returns hexadecimal representation of integer|Returns binary representation|Returns octal representation|Deletes integer|A|Hard
+Q389|Which of these statements about Python’s int() function with base argument is true?|Converts string to integer using given base|Converts integer to string|Converts float to integer|Deletes integer|A|Hard
+Q390|Which of these statements about Python’s float() function is true?|Converts string or integer to float|Converts float to integer|Converts string to integer|Deletes float|A|Hard
+Q391|Which of these statements about Python’s complex() function is true?|Creates complex number|Creates integer|Creates float|Deletes number|A|Hard
+Q392|Which of these statements about Python’s divmod() function is true?|Returns quotient and remainder|Returns only quotient|Returns only remainder|Deletes numbers|A|Hard
+Q393|Which of these statements about Python’s pow() function with three arguments is true?|Computes modular exponentiation|Computes regular exponent|Computes square root|Deletes numbers|A|Hard
+Q394|Which of these statements about Python’s round() function is true?|Rounds to given precision|Truncates number|Ceiling function|Floor function|A|Hard
+Q395|Which of these statements about Python’s sum() function is true?|Returns sum of iterable|Returns max of iterable|Returns min of iterable|Deletes elements|A|Hard
+Q396|Which of these statements about Python’s min() function is true?|Returns smallest item|Returns largest item|Deletes item|Modifies item|A|Hard
+Q397|Which of these statements about Python’s max() function is true?|Returns largest item|Returns smallest item|Deletes item|Modifies item|A|Hard
+Q398|Which of these statements about Python’s abs() function is true?|Returns absolute value|Returns negative value|Deletes number|Modifies number|A|Hard
+Q399|Which of these statements about Python’s divmod() function is true?|Returns quotient and remainder|Returns only quotient|Returns only remainder|Deletes numbers|A|Hard
+Q400|Which of these statements about Python’s pow() function is true?|Returns power of a number|Returns square root|Returns log|Deletes numbers|A|Hard
+Q401|Which of these statements about Python’s format() method is true?|Formats strings using placeholders|Deletes strings|Modifies strings|Overrides strings|A|Hard
+Q402|Which of these statements about Python’s f-strings is true?|Embed expressions inside string literals|Deletes expressions|Modifies expressions|Overrides expressions|A|Hard
+Q403|Which of these statements about Python’s str.format_map() is true?|Formats string using a mapping|Deletes mapping|Modifies mapping|Overrides mapping|A|Hard
+Q404|Which of these statements about Python’s __str__ method is true?|Returns human-readable string|Returns code string|Deletes string|Modifies string|A|Hard
+Q405|Which of these statements about Python’s __bytes__ method is true?|Returns byte representation|Returns string representation|Deletes bytes|Modifies bytes|A|Hard
+Q406|Which of these statements about Python’s string.Template is true?|Performs template substitution|Performs math operations|Performs list operations|Performs file operations|A|Hard
+Q407|Which of these statements about Python’s reprlib module is true?|Provides abbreviated representations of objects|Deletes objects|Modifies objects|Overrides objects|A|Hard
+Q408|Which of these statements about Python’s string slicing is true?|Accesses parts of string|Deletes string|Modifies string|Overrides string|A|Hard
+Q409|Which of these statements about Python’s string concatenation is true?|Combines multiple strings|Deletes strings|Modifies strings|Overrides strings|A|Hard
+Q410|Which of these statements about Python’s join() method is true?|Joins iterable of strings|Splits strings|Deletes strings|Modifies strings|A|Hard
+Q411|Which of these statements about Python’s split() method is true?|Splits string into list|Joins strings|Deletes strings|Modifies strings|A|Hard
+Q412|Which of these statements about Python’s partition() method is true?|Splits string into three parts|Joins strings|Deletes strings|Modifies strings|A|Hard
+Q413|Which of these statements about Python’s rpartition() method is true?|Splits string from right|Splits string from left|Deletes strings|Modifies strings|A|Hard
+Q414|Which of these statements about Python’s replace() method is true?|Replaces substring with another|Deletes substring|Modifies string in place|Overrides string|A|Hard
+Q415|Which of these statements about Python’s strip() method is true?|Removes leading/trailing characters|Removes middle characters|Deletes string|Modifies string in place|A|Hard
+Q416|Which of these statements about Python’s lstrip() method is true?|Removes leading characters|Removes trailing characters|Deletes string|Modifies string in place|A|Hard
+Q417|Which of these statements about Python’s rstrip() method is true?|Removes trailing characters|Removes leading characters|Deletes string|Modifies string in place|A|Hard
+Q418|Which of these statements about Python’s upper() method is true?|Converts string to uppercase|Converts string to lowercase|Deletes string|Modifies string in place|A|Hard
+Q419|Which of these statements about Python’s lower() method is true?|Converts string to lowercase|Converts string to uppercase|Deletes string|Modifies string in place|A|Hard
+Q420|Which of these statements about Python’s title() method is true?|Converts string to title case|Converts string to uppercase|Deletes string|Modifies string in place|A|Hard
+Q421|Which of these statements about Python’s capitalize() method is true?|Capitalizes first character|Converts all to lowercase|Deletes string|Modifies string in place|A|Hard
+Q422|Which of these statements about Python’s swapcase() method is true?|Swaps case of each character|Deletes string|Modifies string in place|Overrides string|A|Hard
+Q423|Which of these statements about Python’s isdigit() method is true?|Checks if all characters are digits|Checks if all characters are letters|Deletes string|Modifies string|A|Hard
+Q424|Which of these statements about Python’s isnumeric() method is true?|Checks numeric characters|Checks alphabetic characters|Deletes string|Modifies string|A|Hard
+Q425|Which of these statements about Python’s isalpha() method is true?|Checks if all characters are letters|Checks digits|Deletes string|Modifies string|A|Hard
+Q426|Which of these statements about Python’s isalnum() method is true?|Checks if all characters are alphanumeric|Checks digits only|Checks letters only|Deletes string|A|Hard
+Q427|Which of these statements about Python’s islower() method is true?|Checks if all letters are lowercase|Checks if letters are uppercase|Deletes string|Modifies string|A|Hard
+Q428|Which of these statements about Python’s isupper() method is true?|Checks if all letters are uppercase|Checks if letters are lowercase|Deletes string|Modifies string|A|Hard
+Q429|Which of these statements about Python’s istitle() method is true?|Checks if string is title case|Checks if string is uppercase|Deletes string|Modifies string|A|Hard
+Q430|Which of these statements about Python’s startswith() method is true?|Checks if string starts with substring|Checks if string ends with substring|Deletes string|Modifies string|A|Hard
+Q431|Which of these statements about Python’s endswith() method is true?|Checks if string ends with substring|Checks if string starts with substring|Deletes string|Modifies string|A|Hard
+Q432|Which of these statements about Python’s find() method is true?|Returns index of first occurrence|Deletes string|Modifies string|Overrides string|A|Hard
+Q433|Which of these statements about Python’s rfind() method is true?|Returns index of last occurrence|Returns index of first occurrence|Deletes string|Modifies string|A|Hard
+Q434|Which of these statements about Python’s index() method is true?|Returns index of first occurrence, raises error if not found|Returns index, returns -1 if not found|Deletes string|Modifies string|A|Hard
+Q435|Which of these statements about Python’s rindex() method is true?|Returns index of last occurrence, raises error if not found|Returns last occurrence, returns -1 if not found|Deletes string|Modifies string|A|Hard
+Q436|Which of these statements about Python’s count() method is true?|Counts occurrences of substring|Deletes substring|Modifies string|Overrides string|A|Hard
+Q437|Which of these statements about Python’s format_spec in format() is true?|Controls presentation of value|Deletes value|Modifies value|Overrides value|A|Hard
+Q438|Which of these statements about Python’s __format__ method is true?|Returns formatted string for an object|Deletes object|Modifies object|Overrides object|A|Hard
+Q439|Which of these statements about Python’s string encoding is true?|Converts string to bytes using encoding|Deletes string|Modifies string|Overrides string|A|Hard
+Q440|Which of these statements about Python’s string decoding is true?|Converts bytes to string using encoding|Deletes bytes|Modifies bytes|Overrides bytes|A|Hard
+Q441|Which of these statements about Python’s bytes.decode() is true?|Decodes bytes to string|Encodes string|Deletes bytes|Modifies bytes|A|Hard
+Q442|Which of these statements about Python’s str.encode() is true?|Encodes string to bytes|Decodes bytes|Deletes string|Modifies string|A|Hard
+Q443|Which of these statements about Python’s Python Unicode support is true?|Strings are Unicode by default|Strings are ASCII by default|Strings are bytes by default|Strings are integers|A|Hard
+Q444|Which of these statements about Python’s ord() and chr() functions is true?|Convert between character and Unicode code point|Convert between string and integer|Delete character|Modify character|A|Hard
+Q445|Which of these statements about Python’s bytes literals is true?|b"..." creates bytes|Creates string|Deletes bytes|Modifies bytes|A|Hard
+Q446|Which of these statements about Python’s bytearray() is true?|Creates mutable sequence of bytes|Creates immutable sequence|Creates string|Creates integer|A|Hard
+Q447|Which of these statements about Python’s memoryview() is true?|Provides view on memory without copying|Copies memory|Deletes memory|Modifies memory|A|Hard
+Q448|Which of these statements about Python’s ord() function with non-ASCII is true?|Supports Unicode code points|Supports ASCII only|Deletes character|Modifies character|A|Hard
+Q449|Which of these statements about Python’s chr() function with code points > 127 is true?|Returns Unicode character|Returns ASCII character|Deletes character|Modifies character|A|Hard
+Q450|Which of these statements about Python’s Python string interpolation is true?|Supports % operator, format(), and f-strings|Supports only + operator|Deletes strings|Modifies strings|A|Hard
+Q451|Which of these statements about Python’s repr() vs str() is true?|repr() is unambiguous, str() is human-readable|str() is unambiguous, repr() is human-readable|Deletes string|Modifies string|A|Hard
+Q452|Which of these statements about Python’s escape sequences is true?|Special characters in strings start with backslash|Special characters start with forward slash|Deletes characters|Modifies characters|A|Hard
+Q453|Which of these statements about Python’s raw strings is true?|r"..." ignores escape sequences|r"..." processes escape sequences|Deletes string|Modifies string|A|Hard
+Q454|Which of these statements about Python’s bytes vs str is true?|str is text, bytes is binary data|bytes is text, str is binary|Deletes string|Modifies string|A|Hard
+Q455|Which of these statements about Python’s f-string expressions is true?|Evaluates Python expressions inside {}|Deletes expressions|Modifies expressions|Overrides expressions|A|Hard
+Q456|Which of these statements about Python’s format specifiers is true?|Control alignment, width, precision|Delete string|Modify string|Override string|A|Hard
+Q457|Which of these statements about Python’s string concatenation using + operator is true?|Combines strings|Deletes strings|Modifies strings|Overrides strings|A|Hard
+Q458|Which of these statements about Python’s string repetition using * operator is true?|Repeats string|Deletes string|Modifies string|Overrides string|A|Hard
+Q459|Which of these statements about Python’s string membership using in keyword is true?|Checks if substring exists|Deletes string|Modifies string|Overrides string|A|Hard
+Q460|Which of these statements about Python’s string slicing with [start:end:step] is true?|Extracts substring|Deletes string|Modifies string|Overrides string|A|Hard
+Q461|Which of these statements about Python’s string immutability is true?|Strings cannot be changed in-place|Strings can be changed|Deletes string|Overrides string|A|Hard
+Q462|Which of these statements about Python’s bytes immutability is true?|Bytes are immutable|Bytes are mutable|Deletes bytes|Overrides bytes|A|Hard
+Q463|Which of these statements about Python’s bytearray mutability is true?|Bytearray is mutable|Bytearray is immutable|Deletes bytearray|Overrides bytearray|A|Hard
+Q464|Which of these statements about Python’s Unicode normalization using unicodedata module is true?|Normalize Unicode strings|Deletes strings|Modifies strings|Overrides strings|A|Hard
+Q465|Which of these statements about Python’s str.maketrans() is true?|Creates translation table|Deletes table|Modifies table|Overrides table|A|Hard
+Q466|Which of these statements about Python’s str.translate() is true?|Translates string using table|Deletes string|Modifies string|Overrides string|A|Hard
+Q467|Which of these statements about Python’s re module is true?|Provides regular expression operations|Provides math operations|Provides string operations|Provides list operations|A|Hard
+Q468|Which of these statements about Python’s re.match() is true?|Matches pattern at beginning of string|Matches pattern anywhere|Deletes string|Modifies string|A|Hard
+Q469|Which of these statements about Python’s re.search() is true?|Searches pattern anywhere in string|Searches pattern only at start|Deletes string|Modifies string|A|Hard
+Q470|Which of these statements about Python’s re.findall() is true?|Finds all non-overlapping matches|Finds only first match|Deletes string|Modifies string|A|Hard
+Q471|Which of these statements about Python’s re.finditer() is true?|Returns iterator of matches|Returns list of matches|Deletes string|Modifies string|A|Hard
+Q472|Which of these statements about Python’s re.sub() is true?|Replaces matches with string|Deletes matches|Modifies string|Overrides string|A|Hard
+Q473|Which of these statements about Python’s re.split() is true?|Splits string by pattern|Deletes string|Modifies string|Overrides string|A|Hard
+Q474|Which of these statements about Python’s re.compile() is true?|Compiles regex pattern into regex object|Deletes pattern|Modifies pattern|Overrides pattern|A|Hard
+Q475|Which of these statements about Python’s re.escape() is true?|Escapes special characters|Deletes characters|Modifies characters|Overrides characters|A|Hard
+Q476|Which of these statements about Python’s re.subn() is true?|Replaces matches and returns number of replacements|Replaces only|Deletes matches|Overrides matches|A|Hard
+Q477|Which of these statements about Python’s regex flags like re.IGNORECASE is true?|Modify regex behavior|Deletes regex|Overrides regex|Modifies string|A|Hard
+Q478|Which of these statements about Python’s regex groups using () is true?|Captures part of match|Deletes match|Modifies match|Overrides match|A|Hard
+Q479|Which of these statements about Python’s regex non-capturing groups using (?:) is true?|Groups without capturing|Captures match|Deletes match|Modifies match|A|Hard
+Q480|Which of these statements about Python’s regex named groups using (?P<name>) is true?|Assigns name to captured group|Deletes match|Modifies match|Overrides match|A|Hard
+Q481|Which of these statements about Python’s regex backreferences using \1, \2 is true?|Refer to previously captured groups|Deletes group|Modifies group|Overrides group|A|Hard
+Q482|Which of these statements about Python’s regex lookahead (?=...) is true?|Asserts pattern without consuming|Matches and consumes|Deletes pattern|Overrides pattern|A|Hard
+Q483|Which of these statements about Python’s regex lookbehind (?<=...) is true?|Asserts pattern before position|Matches and consumes|Deletes pattern|Overrides pattern|A|Hard
+Q484|Which of these statements about Python’s regex negative lookahead (?!...) is true?|Asserts pattern is not present|Matches pattern|Deletes pattern|Overrides pattern|A|Hard
+Q485|Which of these statements about Python’s regex negative lookbehind (?<!...) is true?|Asserts pattern is not present before|Matches pattern|Deletes pattern|Overrides pattern|A|Hard
+Q486|Which of these statements about Python’s regex greedy vs non-greedy quantifiers is true?|Greedy matches longest, non-greedy shortest|Greedy shortest, non-greedy longest|Deletes pattern|Overrides pattern|A|Hard
+Q487|Which of these statements about Python’s regex repetition using *, +, ? is true?|Matches 0 or more, 1 or more, 0 or 1|Deletes pattern|Overrides pattern|Modifies pattern|A|Hard
+Q488|Which of these statements about Python’s regex anchors ^ and $ is true?|^ matches start, $ matches end|^ matches end, $ matches start|Deletes pattern|Overrides pattern|A|Hard
+Q489|Which of these statements about Python’s regex character classes [] is true?|Matches any character inside brackets|Deletes pattern|Overrides pattern|Modifies pattern|A|Hard
+Q490|Which of these statements about Python’s regex negated classes [^] is true?|Matches any character not inside brackets|Deletes pattern|Overrides pattern|Modifies pattern|A|Hard
+Q491|Which of these statements about Python’s regex predefined classes \d, \w, \s is true?|Matches digits, word chars, whitespace|Deletes pattern|Overrides pattern|Modifies pattern|A|Hard
+Q492|Which of these statements about Python’s regex anchors \b and \B is true?|\\b matches word boundary, \\B non-word boundary|Deletes pattern|Overrides pattern|Modifies pattern|A|Hard
+Q493|Which of these statements about Python’s regex alternation using | is true?|Matches either pattern|Deletes pattern|Overrides pattern|Modifies pattern|A|Hard
+Q494|Which of these statements about Python’s regex grouping with () is true?|Groups subpattern|Deletes pattern|Overrides pattern|Modifies pattern|A|Hard
+Q495|Which of these statements about Python’s regex non-capturing with (?:) is true?|Groups without capturing|Deletes pattern|Overrides pattern|Modifies pattern|A|Hard
+Q496|Which of these statements about Python’s regex named group (?P<name>) is true?|Names a group for backreference|Deletes pattern|Overrides pattern|Modifies pattern|A|Hard
+Q497|Which of these statements about Python’s regex repetition {m,n} is true?|Matches at least m and at most n times|Deletes pattern|Overrides pattern|Modifies pattern|A|Hard
+Q498|Which of these statements about Python’s regex dot . is true?|Matches any character except newline|Deletes pattern|Overrides pattern|Modifies pattern|A|Hard
+Q499|Which of these statements about Python’s regex re.VERBOSE flag is true?|Allows whitespace and comments in pattern|Deletes pattern|Overrides pattern|Modifies pattern|A|Hard
+Q500|Which of these statements about Python’s regex re.DOTALL flag is true?|Makes . match newline|Deletes pattern|Overrides pattern|Modifies pattern|A|Hard
+Q501|Which of these statements about Python’s re.MULTILINE flag is true?|^ and $ match start/end of each line|^ and $ match start/end of entire string|Deletes pattern|Overrides pattern|A|Hard
+Q502|Which of these statements about Python’s re.ASCII flag is true?|Makes \\w, \\b match only ASCII characters|Makes \\w, \\b match Unicode characters|Deletes pattern|Overrides pattern|A|Hard
+Q503|Which of these statements about Python’s re.DEBUG flag is true?|Prints debug information for regex compilation|Compiles regex silently|Deletes pattern|Overrides pattern|A|Hard
+Q504|Which of these statements about Python’s re.purge() function is true?|Clears regex cache|Compiles regex|Deletes pattern|Overrides pattern|A|Hard
+Q505|Which of these statements about Python’s re.fullmatch() is true?|Matches entire string against pattern|Matches partial string|Deletes string|Overrides string|A|Hard
+Q506|Which of these statements about Python’s re.Scanner is true?|Provides lexical scanning using regex|Deletes string|Modifies string|Overrides string|A|Hard
+Q507|Which of these statements about Python’s regex flags combination using | is true?|Combine multiple flags|Use only one flag|Deletes pattern|Overrides pattern|A|Hard
+Q508|Which of these statements about Python’s re.Match object group() method is true?|Returns matched substring|Deletes match|Modifies match|Overrides match|A|Hard
+Q509|Which of these statements about Python’s re.Match object groups() method is true?|Returns tuple of all groups|Returns list of matches|Deletes match|Overrides match|A|Hard
+Q510|Which of these statements about Python’s re.Match object start() method is true?|Returns start index of match|Returns end index|Deletes match|Overrides match|A|Hard
+Q511|Which of these statements about Python’s re.Match object end() method is true?|Returns end index of match|Returns start index|Deletes match|Overrides match|A|Hard
+Q512|Which of these statements about Python’s re.Match object span() method is true?|Returns tuple (start, end)|Returns start only|Deletes match|Overrides match|A|Hard
+Q513|Which of these statements about Python’s re.Match object groupdict() method is true?|Returns dict of named groups|Returns list of groups|Deletes match|Overrides match|A|Hard
+Q514|Which of these statements about Python’s regex greedy vs reluctant quantifiers is true?|Greedy matches longest, reluctant shortest|Greedy shortest, reluctant longest|Deletes pattern|Overrides pattern|A|Hard
+Q515|Which of these statements about Python’s regex possessive quantifiers is true?|Not supported directly in Python|Fully supported|Deletes pattern|Overrides pattern|A|Hard
+Q516|Which of these statements about Python’s regex backtracking is true?|Regex engine tries multiple paths until match|Regex engine matches only once|Deletes pattern|Overrides pattern|A|Hard
+Q517|Which of these statements about Python’s re.error exception is true?|Raised on invalid regex|Raised on invalid string|Deletes regex|Overrides regex|A|Hard
+Q518|Which of these statements about Python’s re.escape() method is true?|Escapes all special characters in string|Escapes only letters|Deletes string|Overrides string|A|Hard
+Q519|Which of these statements about Python’s re.split() maxsplit parameter is true?|Limits number of splits|Limits string length|Deletes string|Overrides string|A|Hard
+Q520|Which of these statements about Python’s re.sub() count parameter is true?|Limits number of replacements|Counts characters|Deletes string|Overrides string|A|Hard
+Q521|Which of these statements about Python’s re.findall() vs re.finditer() is true?|findall returns list, finditer returns iterator|Both return list|Deletes string|Overrides string|A|Hard
+Q522|Which of these statements about Python’s regex module alternative to re is true?|Provides additional features like fuzzy matching|Same as re|Deletes string|Overrides string|A|Hard
+Q523|Which of these statements about Python’s regex module fuzzy matching is true?|Allows approximate matching|Exact match only|Deletes string|Overrides string|A|Hard
+Q524|Which of these statements about Python’s regex module POSIX mode is true?|Supports POSIX regex patterns|Does not support POSIX|Deletes string|Overrides string|A|Hard
+Q525|Which of these statements about Python’s regex module overlapping matches is true?|Can find overlapping matches|Cannot find overlapping matches|Deletes string|Overrides string|A|Hard
+Q526|Which of these statements about Python’s regex module fullmatch() is true?|Matches entire string|Matches partial string|Deletes string|Overrides string|A|Hard
+Q527|Which of these statements about Python’s regex module split() is true?|Splits string by pattern|Splits by character only|Deletes string|Overrides string|A|Hard
+Q528|Which of these statements about Python’s regex module sub() is true?|Replaces pattern matches|Deletes pattern matches|Overrides string|Modifies string|A|Hard
+Q529|Which of these statements about Python’s regex module subn() is true?|Returns tuple (new_string, number_of_subs)|Returns new string only|Deletes string|Overrides string|A|Hard
+Q530|Which of these statements about Python’s regex module findall() vs search() is true?|findall returns all matches, search returns first|Both return first match|Deletes string|Overrides string|A|Hard
+Q531|Which of these statements about Python’s Python lists slicing is true?|Extracts sublist using [start:end]|Deletes list|Modifies list|Overrides list|A|Hard
+Q532|Which of these statements about Python’s list append() method is true?|Adds element at end|Adds element at start|Deletes element|Overrides element|A|Hard
+Q533|Which of these statements about Python’s list extend() method is true?|Extends list with iterable|Extends list with integer|Deletes element|Overrides element|A|Hard
+Q534|Which of these statements about Python’s list insert() method is true?|Inserts element at given index|Replaces element|Deletes element|Overrides element|A|Hard
+Q535|Which of these statements about Python’s list remove() method is true?|Removes first matching element|Removes last element|Deletes element|Overrides element|A|Hard
+Q536|Which of these statements about Python’s list pop() method is true?|Removes element at index and returns it|Deletes element silently|Overrides element|Modifies element|A|Hard
+Q537|Which of these statements about Python’s list clear() method is true?|Removes all elements|Removes first element|Deletes element|Overrides element|A|Hard
+Q538|Which of these statements about Python’s list index() method is true?|Returns index of first matching element|Returns index of last matching element|Deletes element|Overrides element|A|Hard
+Q539|Which of these statements about Python’s list count() method is true?|Returns number of occurrences of value|Returns index|Deletes element|Overrides element|A|Hard
+Q540|Which of these statements about Python’s list sort() method is true?|Sorts list in place|Returns new sorted list|Deletes element|Overrides element|A|Hard
+Q541|Which of these statements about Python’s list sorted() function is true?|Returns new sorted list|Sorts in place|Deletes element|Overrides element|A|Hard
+Q542|Which of these statements about Python’s list reverse() method is true?|Reverses list in place|Returns new reversed list|Deletes element|Overrides element|A|Hard
+Q543|Which of these statements about Python’s Python tuples immutability is true?|Cannot modify tuples in place|Tuples are mutable|Deletes tuple|Overrides tuple|A|Hard
+Q544|Which of these statements about Python’s tuple indexing is true?|Access elements using index|Modify elements|Deletes element|Overrides element|A|Hard
+Q545|Which of these statements about Python’s tuple unpacking is true?|Assign multiple variables from tuple|Deletes tuple|Overrides tuple|Modifies tuple|A|Hard
+Q546|Which of these statements about Python’s tuple concatenation is true?|Combine two tuples to make new|Modify tuples in place|Deletes tuple|Overrides tuple|A|Hard
+Q547|Which of these statements about Python’s tuple repetition is true?|Repeat tuple using * operator|Modifies tuple|Deletes tuple|Overrides tuple|A|Hard
+Q548|Which of these statements about Python’s Python sets uniqueness is true?|Set elements are unique|Set allows duplicates|Deletes element|Overrides element|A|Hard
+Q549|Which of these statements about Python’s set add() method is true?|Adds element to set|Replaces element|Deletes element|Overrides element|A|Hard
+Q550|Which of these statements about Python’s set update() method is true?|Adds multiple elements from iterable|Deletes elements|Overrides elements|Modifies set|A|Hard
+Q551|Which of these statements about Python’s set remove() method is true?|Removes element, raises KeyError if not found|Deletes element silently|Overrides element|Modifies set|A|Hard
+Q552|Which of these statements about Python’s set discard() method is true?|Removes element if present, no error if missing|Raises error if element missing|Overrides element|Modifies set|A|Hard
+Q553|Which of these statements about Python’s set pop() method is true?|Removes and returns arbitrary element|Removes specific element|Deletes element|Overrides element|A|Hard
+Q554|Which of these statements about Python’s set clear() method is true?|Removes all elements|Removes one element|Deletes element|Overrides element|A|Hard
+Q555|Which of these statements about Python’s set union() method is true?|Returns union of sets|Modifies original sets|Deletes sets|Overrides sets|A|Hard
+Q556|Which of these statements about Python’s set intersection() method is true?|Returns intersection of sets|Modifies original sets|Deletes sets|Overrides sets|A|Hard
+Q557|Which of these statements about Python’s set difference() method is true?|Returns elements in first set but not second|Deletes sets|Overrides sets|Modifies sets|A|Hard
+Q558|Which of these statements about Python’s set symmetric_difference() method is true?|Returns elements in either set but not both|Deletes sets|Overrides sets|Modifies sets|A|Hard
+Q559|Which of these statements about Python’s set issubset() method is true?|Checks if set is subset of another|Checks superset|Deletes set|Overrides set|A|Hard
+Q560|Which of these statements about Python’s set issuperset() method is true?|Checks if set is superset of another|Checks subset|Deletes set|Overrides set|A|Hard
+Q561|Which of these statements about Python’s set copy() method is true?|Returns shallow copy|Returns deep copy|Deletes set|Overrides set|A|Hard
+Q562|Which of these statements about Python’s frozen set is true?|Immutable set type|Mutable set type|Deletes set|Overrides set|A|Hard
+Q563|Which of these statements about Python’s dictionaries uniqueness of keys is true?|Keys must be unique|Keys can repeat|Deletes key|Overrides key|A|Hard
+Q564|Which of these statements about Python’s dict get() method is true?|Returns value for key or default|Raises error if key missing|Deletes key|Overrides key|A|Hard
+Q565|Which of these statements about Python’s dict keys() method is true?|Returns iterable of keys|Returns values|Deletes keys|Overrides keys|A|Hard
+Q566|Which of these statements about Python’s dict values() method is true?|Returns iterable of values|Returns keys|Deletes values|Overrides values|A|Hard
+Q567|Which of these statements about Python’s dict items() method is true?|Returns iterable of (key, value) pairs|Returns keys|Deletes items|Overrides items|A|Hard
+Q568|Which of these statements about Python’s dict pop() method is true?|Removes key and returns value|Removes key silently|Overrides key|Deletes key|A|Hard
+Q569|Which of these statements about Python’s dict popitem() method is true?|Removes and returns arbitrary (key,value) pair|Removes specific key|Overrides key|Deletes key|A|Hard
+Q570|Which of these statements about Python’s dict setdefault() method is true?|Returns value if key exists, otherwise sets default|Always sets default|Deletes key|Overrides key|A|Hard
+Q571|Which of these statements about Python’s dict update() method is true?|Updates dictionary with another dictionary|Deletes dictionary|Overrides dictionary|Modifies dictionary|A|Hard
+Q572|Which of these statements about Python’s dict clear() method is true?|Removes all items|Removes one item|Deletes dictionary|Overrides dictionary|A|Hard
+Q573|Which of these statements about Python’s dict fromkeys() method is true?|Creates dictionary from iterable of keys|Deletes keys|Overrides keys|Modifies dictionary|A|Hard
+Q574|Which of these statements about Python’s dict comprehension is true?|Creates dictionary from iterable using {k:v}|Deletes dictionary|Overrides dictionary|Modifies dictionary|A|Hard
+Q575|Which of these statements about Python’s Python None type is true?|Represents absence of value|Represents 0|Represents empty string|Represents False|A|Hard
+Q576|Which of these statements about Python’s bool type is true?|Represents True or False|Represents integers only|Represents strings|Represents None|A|Hard
+Q577|Which of these statements about Python’s Python type() function is true?|Returns type of object|Deletes object|Overrides object|Modifies object|A|Hard
+Q578|Which of these statements about Python’s isinstance() function is true?|Checks object type against class|Modifies object|Deletes object|Overrides object|A|Hard
+Q579|Which of these statements about Python’s issubclass() function is true?|Checks class inheritance|Modifies class|Deletes class|Overrides class|A|Hard
+Q580|Which of these statements about Python’s callable() function is true?|Checks if object is callable|Deletes object|Overrides object|Modifies object|A|Hard
+Q581|Which of these statements about Python’s Python pass statement is true?|Does nothing, acts as placeholder|Deletes statement|Overrides statement|Modifies statement|A|Hard
+Q582|Which of these statements about Python’s Python del statement is true?|Deletes object reference|Deletes object value|Overrides object|Modifies object|A|Hard
+Q583|Which of these statements about Python’s Python global statement is true?|Declares variable as global|Deletes variable|Overrides variable|Modifies variable|A|Hard
+Q584|Which of these statements about Python’s Python nonlocal statement is true?|Declares variable in enclosing scope|Declares global variable|Deletes variable|Overrides variable|A|Hard
+Q585|Which of these statements about Python’s Python assert statement is true?|Raises AssertionError if condition false|Deletes assertion|Overrides assertion|Modifies assertion|A|Hard
+Q586|Which of these statements about Python’s Python yield statement is true?|Pauses function and returns value to caller|Deletes function|Overrides function|Modifies function|A|Hard
+Q587|Which of these statements about Python’s Python generator functions is true?|Use yield to produce sequence|Use return only|Deletes function|Overrides function|Modifies function|A|Hard
+Q588|Which of these statements about Python’s Python generator expressions is true?|Lazy evaluated, similar to list comprehension|Eager evaluated|Deletes expression|Overrides expression|Modifies expression|A|Hard
+Q589|Which of these statements about Python’s Python iter() function is true?|Returns iterator from iterable|Returns list|Deletes object|Overrides object|Modifies object|A|Hard
+Q590|Which of these statements about Python’s Python next() function is true?|Returns next element from iterator|Deletes element|Overrides element|Modifies element|A|Hard
+Q591|Which of these statements about Python’s Python stop iteration handling is true?|Raises StopIteration when iterator ends|Returns None|Deletes element|Overrides element|Modifies element|A|Hard
+Q592|Which of these statements about Python’s Python context managers are true?|Use __enter__ and __exit__|Use only __init__|Deletes object|Overrides object|Modifies object|A|Hard
+Q593|Which of these statements about Python’s with statement is true?|Manages resources automatically|Deletes resource|Overrides resource|Modifies resource|A|Hard
+Q594|Which of these statements about Python’s Python file open modes is true?|r, w, a, rb, wb, ab|Only r and w|Deletes file|Overrides file|Modifies file|A|Hard
+Q595|Which of these statements about Python’s file read() method is true?|Reads entire file content|Reads only line|Deletes file|Overrides file|Modifies file|A|Hard
+Q596|Which of these statements about Python’s file readline() method is true?|Reads one line|Reads entire file|Deletes line|Overrides line|Modifies line|A|Hard
+Q597|Which of these statements about Python’s file readlines() method is true?|Returns list of all lines|Returns single line|Deletes lines|Overrides lines|Modifies lines|A|Hard
+Q598|Which of these statements about Python’s file write() method is true?|Writes string to file|Reads string|Deletes file|Overrides file|Modifies file|A|Hard
+Q599|Which of these statements about Python’s file writelines() method is true?|Writes list of strings to file|Reads list|Deletes file|Overrides file|Modifies file|A|Hard
+Q600|Which of these statements about Python’s Python file closing is true?|file.close() closes file|file.close() deletes file|Overrides file|Modifies file|A|Hard
+Q601|Which of these statements about Python’s os module getcwd() function is true?|Returns current working directory|Deletes directory|Overrides directory|Modifies directory|A|Hard
+Q602|Which of these statements about Python’s os module chdir() function is true?|Changes current working directory|Deletes directory|Overrides directory|Modifies directory|A|Hard
+Q603|Which of these statements about Python’s os module listdir() function is true?|Returns list of files and directories|Deletes files|Overrides files|Modifies files|A|Hard
+Q604|Which of these statements about Python’s os module mkdir() function is true?|Creates new directory|Deletes directory|Overrides directory|Modifies directory|A|Hard
+Q605|Which of these statements about Python’s os module makedirs() function is true?|Creates nested directories|Creates single directory only|Deletes directory|Overrides directory|A|Hard
+Q606|Which of these statements about Python’s os module rmdir() function is true?|Removes empty directory|Removes non-empty directory|Overrides directory|Modifies directory|A|Hard
+Q607|Which of these statements about Python’s os module removedirs() function is true?|Removes nested empty directories|Removes non-empty directories|Overrides directory|Modifies directory|A|Hard
+Q608|Which of these statements about Python’s os module rename() function is true?|Renames a file or directory|Deletes file|Overrides file|Modifies file|A|Hard
+Q609|Which of these statements about Python’s os module stat() function is true?|Returns file or directory status|Deletes file|Overrides file|Modifies file|A|Hard
+Q610|Which of these statements about Python’s os.path module join() function is true?|Joins path components|Deletes path|Overrides path|Modifies path|A|Hard
+Q611|Which of these statements about Python’s os.path module exists() function is true?|Checks if path exists|Deletes path|Overrides path|Modifies path|A|Hard
+Q612|Which of these statements about Python’s os.path module isfile() function is true?|Checks if path is a file|Checks if path is a directory|Deletes file|Overrides file|Modifies file|A|Hard
+Q613|Which of these statements about Python’s os.path module isdir() function is true?|Checks if path is a directory|Checks if path is a file|Deletes directory|Overrides directory|Modifies directory|A|Hard
+Q614|Which of these statements about Python’s os.path module basename() function is true?|Returns last component of path|Returns directory name|Deletes path|Overrides path|Modifies path|A|Hard
+Q615|Which of these statements about Python’s os.path module dirname() function is true?|Returns directory portion of path|Returns filename|Deletes path|Overrides path|Modifies path|A|Hard
+Q616|Which of these statements about Python’s os.path module split() function is true?|Splits path into (dir, file)|Joins path components|Deletes path|Overrides path|Modifies path|A|Hard
+Q617|Which of these statements about Python’s os.path module splitext() function is true?|Splits filename into (name, ext)|Deletes file|Overrides file|Modifies file|A|Hard
+Q618|Which of these statements about Python’s os.path module abspath() function is true?|Returns absolute path|Returns relative path|Deletes path|Overrides path|Modifies path|A|Hard
+Q619|Which of these statements about Python’s os.path module realpath() function is true?|Returns canonical path|Returns relative path|Deletes path|Overrides path|Modifies path|A|Hard
+Q620|Which of these statements about Python’s os.path module normpath() function is true?|Normalizes path by collapsing redundant separators|Deletes path|Overrides path|Modifies path|A|Hard
+Q621|Which of these statements about Python’s os.path module commonprefix() function is true?|Returns longest common prefix|Returns longest common suffix|Deletes path|Overrides path|Modifies path|A|Hard
+Q622|Which of these statements about Python’s os.path module relpath() function is true?|Returns relative path from start|Returns absolute path|Deletes path|Overrides path|Modifies path|A|Hard
+Q623|Which of these statements about Python’s os.path module expanduser() function is true?|Expands ~ to user home directory|Deletes path|Overrides path|Modifies path|A|Hard
+Q624|Which of these statements about Python’s os.path module expandvars() function is true?|Expands environment variables|Deletes path|Overrides path|Modifies path|A|Hard
+Q625|Which of these statements about Python’s Python shutil module copy() function is true?|Copies a file|Moves a file|Deletes file|Overrides file|A|Hard
+Q626|Which of these statements about Python’s shutil module copy2() function is true?|Copies file with metadata|Copies without metadata|Deletes file|Overrides file|A|Hard
+Q627|Which of these statements about Python’s shutil module copytree() function is true?|Copies entire directory tree|Copies single file|Deletes directory|Overrides directory|A|Hard
+Q628|Which of these statements about Python’s shutil module move() function is true?|Moves file or directory|Copies file|Deletes file|Overrides file|A|Hard
+Q629|Which of these statements about Python’s shutil module rmtree() function is true?|Removes entire directory tree|Removes empty directory|Deletes directory|Overrides directory|A|Hard
+Q630|Which of these statements about Python’s Python datetime module date class is true?|Represents a calendar date|Represents time only|Deletes date|Overrides date|Modifies date|A|Hard
+Q631|Which of these statements about Python’s datetime module time class is true?|Represents time of day|Represents date only|Deletes time|Overrides time|Modifies time|A|Hard
+Q632|Which of these statements about Python’s datetime module datetime class is true?|Represents date and time|Represents date only|Deletes datetime|Overrides datetime|Modifies datetime|A|Hard
+Q633|Which of these statements about Python’s datetime module timedelta class is true?|Represents difference between dates or times|Represents specific date|Deletes timedelta|Overrides timedelta|Modifies timedelta|A|Hard
+Q634|Which of these statements about Python’s datetime module now() method is true?|Returns current local datetime|Returns UTC only|Deletes datetime|Overrides datetime|Modifies datetime|A|Hard
+Q635|Which of these statements about Python’s datetime module today() method is true?|Returns current local date|Returns current datetime|Deletes date|Overrides date|Modifies date|A|Hard
+Q636|Which of these statements about Python’s datetime module strftime() method is true?|Formats datetime to string|Parses string to datetime|Deletes datetime|Overrides datetime|Modifies datetime|A|Hard
+Q637|Which of these statements about Python’s datetime module strptime() method is true?|Parses string to datetime|Formats datetime to string|Deletes datetime|Overrides datetime|Modifies datetime|A|Hard
+Q638|Which of these statements about Python’s Python math module ceil() function is true?|Returns smallest integer >= x|Returns largest integer <= x|Deletes number|Overrides number|Modifies number|A|Hard
+Q639|Which of these statements about Python’s math module floor() function is true?|Returns largest integer <= x|Returns smallest integer >= x|Deletes number|Overrides number|Modifies number|A|Hard
+Q640|Which of these statements about Python’s math module factorial() function is true?|Returns factorial of integer|Returns sum of integer|Deletes number|Overrides number|Modifies number|A|Hard
+Q641|Which of these statements about Python’s math module gcd() function is true?|Returns greatest common divisor|Returns least common multiple|Deletes numbers|Overrides numbers|Modifies numbers|A|Hard
+Q642|Which of these statements about Python’s math module lcm() function is true?|Returns least common multiple|Returns greatest common divisor|Deletes numbers|Overrides numbers|Modifies numbers|A|Hard
+Q643|Which of these statements about Python’s math module pow() function is true?|Returns x**y|Returns log(x)|Deletes numbers|Overrides numbers|Modifies numbers|A|Hard
+Q644|Which of these statements about Python’s math module sqrt() function is true?|Returns square root|Returns square|Deletes number|Overrides number|Modifies number|A|Hard
+Q645|Which of these statements about Python’s math module fabs() function is true?|Returns absolute value|Returns negative|Deletes number|Overrides number|Modifies number|A|Hard
+Q646|Which of these statements about Python’s math module isclose() function is true?|Checks if two floats are approximately equal|Checks if two integers are equal|Deletes numbers|Overrides numbers|Modifies numbers|A|Hard
+Q647|Which of these statements about Python’s random module random() function is true?|Returns float between 0 and 1|Returns integer|Deletes number|Overrides number|Modifies number|A|Hard
+Q648|Which of these statements about Python’s random module randint(a, b) function is true?|Returns integer in [a, b]|Returns float|Deletes number|Overrides number|Modifies number|A|Hard
+Q649|Which of these statements about Python’s random module choice() function is true?|Returns random element from sequence|Returns first element|Deletes element|Overrides element|Modifies element|A|Hard
+Q650|Which of these statements about Python’s random module shuffle() function is true?|Shuffles list in place|Returns new shuffled list|Deletes list|Overrides list|Modifies list|A|Hard
+Q651|Which of these statements about Python’s random module sample() function is true?|Returns k unique elements from population|Returns k duplicates|Deletes elements|Overrides elements|Modifies elements|A|Hard
+Q652|Which of these statements about Python’s random module seed() function is true?|Sets seed for reproducibility|Generates random seed automatically|Deletes seed|Overrides seed|Modifies seed|A|Hard
+Q653|Which of these statements about Python’s random module uniform(a, b) function is true?|Returns random float in [a, b]|Returns integer|Deletes number|Overrides number|Modifies number|A|Hard
+Q654|Which of these statements about Python’s random module triangular(low, high, mode) function is true?|Returns float from triangular distribution|Returns integer|Deletes number|Overrides number|Modifies number|A|Hard
+Q655|Which of these statements about Python’s random module betavariate(alpha, beta) function is true?|Returns float from beta distribution|Returns integer|Deletes number|Overrides number|Modifies number|A|Hard
+Q656|Which of these statements about Python’s random module expovariate(lambd) function is true?|Returns float from exponential distribution|Returns integer|Deletes number|Overrides number|Modifies number|A|Hard
+Q657|Which of these statements about Python’s random module gauss(mu, sigma) function is true?|Returns float from Gaussian distribution|Returns integer|Deletes number|Overrides number|Modifies number|A|Hard
+Q658|Which of these statements about Python’s Python itertools module count() function is true?|Returns infinite iterator starting from n|Returns finite list|Deletes iterator|Overrides iterator|Modifies iterator|A|Hard
+Q659|Which of these statements about Python’s itertools module cycle() function is true?|Cycles through iterable indefinitely|Returns finite list|Deletes iterator|Overrides iterator|Modifies iterator|A|Hard
+Q660|Which of these statements about Python’s itertools module repeat() function is true?|Repeats object n times|Repeats indefinitely without limit|Deletes iterator|Overrides iterator|Modifies iterator|A|Hard
+Q661|Which of these statements about Python’s itertools module chain() function is true?|Chains multiple iterables|Returns first iterable only|Deletes iterables|Overrides iterables|Modifies iterables|A|Hard
+Q662|Which of these statements about Python’s itertools module combinations() function is true?|Returns r-length tuples in sorted order|Returns permutations|Deletes iterables|Overrides iterables|Modifies iterables|A|Hard
+Q663|Which of these statements about Python’s itertools module permutations() function is true?|Returns all r-length permutations|Returns combinations|Deletes iterables|Overrides iterables|Modifies iterables|A|Hard
+Q664|Which of these statements about Python’s itertools module product() function is true?|Returns Cartesian product|Returns sum of elements|Deletes iterables|Overrides iterables|Modifies iterables|A|Hard
+Q665|Which of these statements about Python’s Python functools module reduce() function is true?|Applies function cumulatively to items|Deletes items|Overrides items|Modifies items|A|Hard
+Q666|Which of these statements about Python’s functools module partial() function is true?|Returns new function with fixed arguments|Deletes function|Overrides function|Modifies function|A|Hard
+Q667|Which of these statements about Python’s functools module lru_cache() decorator is true?|Caches results of function|Deletes function|Overrides function|Modifies function|A|Hard
+Q668|Which of these statements about Python’s Python contextlib module contextmanager decorator is true?|Creates a generator-based context manager|Deletes function|Overrides function|Modifies function|A|Hard
+Q669|Which of these statements about Python’s Python enum module Enum class is true?|Defines enumeration|Deletes class|Overrides class|Modifies class|A|Hard
+Q670|Which of these statements about Python’s enum module auto() function is true?|Automatically assigns values to enum members|Requires manual values|Deletes enum|Overrides enum|Modifies enum|A|Hard
+Q671|Which of these statements about Python’s typing module List is true?|Specifies type hints for list|Deletes list|Overrides list|Modifies list|A|Hard
+Q672|Which of these statements about Python’s typing module Dict is true?|Specifies type hints for dictionary|Deletes dict|Overrides dict|Modifies dict|A|Hard
+Q673|Which of these statements about Python’s typing module Union is true?|Specifies multiple possible types|Specifies single type|Deletes type|Overrides type|Modifies type|A|Hard
+Q674|Which of these statements about Python’s typing module Optional is true?|Specifies type that can be None|Specifies type that cannot be None|Deletes type|Overrides type|Modifies type|A|Hard
+Q675|Which of these statements about Python’s typing module Any is true?|Specifies any type|Specifies restricted type|Deletes type|Overrides type|Modifies type|A|Hard
+Q676|Which of these statements about Python’s typing module Callable is true?|Specifies function signature|Specifies variable|Deletes function|Overrides function|Modifies function|A|Hard
+Q677|Which of these statements about Python’s typing module TypeVar is true?|Creates a generic type variable|Deletes type|Overrides type|Modifies type|A|Hard
+Q678|Which of these statements about Python’s Python exception hierarchy is true?|Base is Exception class|Base is Error class|Deletes exception|Overrides exception|Modifies exception|A|Hard
+Q679|Which of these statements about Python’s try-except-else-finally structure is true?|else runs if no exception, finally always runs|else runs if exception occurs|Deletes block|Overrides block|Modifies block|A|Hard
+Q680|Which of these statements about Python’s raise statement is true?|Raises an exception|Catches an exception|Deletes exception|Overrides exception|Modifies exception|A|Hard
+Q681|Which of these statements about Python’s Python __init__ method is true?|Constructor method for class|Destructor method|Deletes method|Overrides method|Modifies method|A|Hard
+Q682|Which of these statements about Python’s __str__ method is true?|Returns human-readable string|Returns code representation|Deletes method|Overrides method|Modifies method|A|Hard
+Q683|Which of these statements about Python’s __repr__ method is true?|Returns developer-readable string|Returns human-readable string|Deletes method|Overrides method|Modifies method|A|Hard
+Q684|Which of these statements about Python’s __del__ method is true?|Destructor called when object is garbage collected|Constructor method|Deletes method|Overrides method|Modifies method|A|Hard
+Q685|Which of these statements about Python’s __call__ method is true?|Makes object callable|Deletes method|Overrides method|Modifies method|A|Hard
+Q686|Which of these statements about Python’s __getitem__ method is true?|Enables obj[key] access|Deletes item|Overrides item|Modifies item|A|Hard
+Q687|Which of these statements about Python’s __setitem__ method is true?|Enables obj[key] = value|Deletes item|Overrides item|Modifies item|A|Hard
+Q688|Which of these statements about Python’s __delitem__ method is true?|Enables del obj[key]|Deletes item|Overrides item|Modifies item|A|Hard
+Q689|Which of these statements about Python’s __iter__ method is true?|Returns iterator for object|Deletes object|Overrides object|Modifies object|A|Hard
+Q690|Which of these statements about Python’s __next__ method is true?|Returns next item in iterator|Deletes item|Overrides item|Modifies item|A|Hard
+Q691|Which of these statements about Python’s __contains__ method is true?|Supports 'in' operator|Deletes object|Overrides object|Modifies object|A|Hard
+Q692|Which of these statements about Python’s __len__ method is true?|Returns length of object|Deletes object|Overrides object|Modifies object|A|Hard
+Q693|Which of these statements about Python’s __eq__ method is true?|Defines equality comparison|Defines inequality comparison|Deletes object|Overrides object|Modifies object|A|Hard
+Q694|Which of these statements about Python’s __ne__ method is true?|Defines inequality comparison|Defines equality comparison|Deletes object|Overrides object|Modifies object|A|Hard
+Q695|Which of these statements about Python’s __lt__ method is true?|Defines less-than comparison|Defines greater-than comparison|Deletes object|Overrides object|Modifies object|A|Hard
+Q696|Which of these statements about Python’s __le__ method is true?|Defines less-than-or-equal comparison|Defines greater-than-or-equal comparison|Deletes object|Overrides object|Modifies object|A|Hard
+Q697|Which of these statements about Python’s __gt__ method is true?|Defines greater-than comparison|Defines less-than comparison|Deletes object|Overrides object|Modifies object|A|Hard
+Q698|Which of these statements about Python’s __ge__ method is true?|Defines greater-than-or-equal comparison|Defines less-than-or-equal comparison|Deletes object|Overrides object|Modifies object|A|Hard
+Q699|Which of these statements about Python’s __enter__ method is true?|Called at start of context manager block|Called at end|Deletes method|Overrides method|Modifies method|A|Hard
+Q700|Which of these statements about Python’s __exit__ method is true?|Called at end of context manager block|Called at start|Deletes method|Overrides method|Modifies method|A|Hard
+Q701|Which of these statements about Python’s metaclasses is true?|Defines behavior of a class|Defines behavior of an object|Deletes class|Overrides class|Modifies class|A|Hard
+Q702|Which of these statements about Python’s __metaclass__ attribute is true?|Specifies the metaclass for a class|Specifies base class|Deletes class|Overrides class|Modifies class|A|Hard
+Q703|Which of these statements about Python’s property decorator is true?|Creates getter/setter for attribute|Deletes attribute|Overrides attribute|Modifies attribute|A|Hard
+Q704|Which of these statements about Python’s @staticmethod decorator is true?|Defines method without self|Defines method with self|Deletes method|Overrides method|Modifies method|A|Hard
+Q705|Which of these statements about Python’s @classmethod decorator is true?|Defines method with cls as first argument|Defines method with self|Deletes method|Overrides method|Modifies method|A|Hard
+Q706|Which of these statements about Python’s super() function is true?|Calls parent class method|Calls child class method|Deletes method|Overrides method|Modifies method|A|Hard
+Q707|Which of these statements about Python’s __slots__ attribute is true?|Restricts dynamic attribute creation|Allows any attribute|Deletes attribute|Overrides attribute|Modifies attribute|A|Hard
+Q708|Which of these statements about Python’s weakref module is true?|Creates weak references to objects|Creates strong references|Deletes object|Overrides object|Modifies object|A|Hard
+Q709|Which of these statements about Python’s gc module is true?|Manages garbage collection|Creates objects|Deletes object|Overrides object|Modifies object|A|Hard
+Q710|Which of these statements about Python’s memoryview object is true?|Accesses buffer protocol without copying|Copies data|Deletes data|Overrides data|Modifies data|A|Hard
+Q711|Which of these statements about Python’s __import__ function is true?|Imports a module dynamically|Deletes module|Overrides module|Modifies module|A|Hard
+Q712|Which of these statements about Python’s importlib module import_module() function is true?|Imports module by name at runtime|Imports at compile time|Deletes module|Overrides module|Modifies module|A|Hard
+Q713|Which of these statements about Python’s sys module argv list is true?|Contains command-line arguments|Contains environment variables|Deletes list|Overrides list|Modifies list|A|Hard
+Q714|Which of these statements about Python’s sys module exit() function is true?|Exits interpreter|Pauses execution|Deletes process|Overrides process|Modifies process|A|Hard
+Q715|Which of these statements about Python’s sys module path list is true?|Contains directories for module search|Contains files to execute|Deletes path|Overrides path|Modifies path|A|Hard
+Q716|Which of these statements about Python’s sys module modules dict is true?|Contains loaded modules|Contains environment variables|Deletes dict|Overrides dict|Modifies dict|A|Hard
+Q717|Which of these statements about Python’s built-in open() function is true?|Opens a file for reading or writing|Deletes file|Overrides file|Modifies file|A|Hard
+Q718|Which of these statements about Python’s file modes 'r', 'w', 'a' is true?|r=read, w=write, a=append|r=write, w=read, a=append|Deletes file|Overrides file|Modifies file|A|Hard
+Q719|Which of these statements about Python’s with open() as f syntax is true?|Ensures file is closed automatically|Does not close file|Deletes file|Overrides file|Modifies file|A|Hard
+Q720|Which of these statements about Python’s file object read(), readline(), readlines() methods is true?|Reads file content|Writes file content|Deletes file|Overrides file|Modifies file|A|Hard
+Q721|Which of these statements about Python’s file object write() and writelines() methods is true?|Writes data to file|Reads data from file|Deletes file|Overrides file|Modifies file|A|Hard
+Q722|Which of these statements about Python’s os.path.getsize() function is true?|Returns size of file in bytes|Returns number of lines|Deletes file|Overrides file|Modifies file|A|Hard
+Q723|Which of these statements about Python’s os.path.getmtime() function is true?|Returns last modification time|Returns creation time|Deletes file|Overrides file|Modifies file|A|Hard
+Q724|Which of these statements about Python’s os.path.getctime() function is true?|Returns creation time|Returns last modification time|Deletes file|Overrides file|Modifies file|A|Hard
+Q725|Which of these statements about Python’s os.path.islink() function is true?|Checks if path is symbolic link|Checks if path exists|Deletes path|Overrides path|Modifies path|A|Hard
+Q726|Which of these statements about Python’s os.path.samefile() function is true?|Checks if two paths point to same file|Checks if paths have same name|Deletes path|Overrides path|Modifies path|A|Hard
+Q727|Which of these statements about Python’s pickle module dump() function is true?|Serializes object to file|Deserializes object|Deletes file|Overrides file|Modifies file|A|Hard
+Q728|Which of these statements about Python’s pickle module load() function is true?|Deserializes object from file|Serializes object|Deletes file|Overrides file|Modifies file|A|Hard
+Q729|Which of these statements about Python’s pickle module dumps() function is true?|Serializes object to bytes|Deserializes bytes|Deletes object|Overrides object|Modifies object|A|Hard
+Q730|Which of these statements about Python’s pickle module loads() function is true?|Deserializes object from bytes|Serializes object|Deletes object|Overrides object|Modifies object|A|Hard
+Q731|Which of these statements about Python’s JSON module dump() function is true?|Writes JSON to file|Reads JSON from file|Deletes file|Overrides file|Modifies file|A|Hard
+Q732|Which of these statements about Python’s JSON module load() function is true?|Reads JSON from file|Writes JSON to file|Deletes file|Overrides file|Modifies file|A|Hard
+Q733|Which of these statements about Python’s JSON module dumps() function is true?|Converts object to JSON string|Reads JSON string|Deletes object|Overrides object|Modifies object|A|Hard
+Q734|Which of these statements about Python’s JSON module loads() function is true?|Converts JSON string to Python object|Writes object to string|Deletes object|Overrides object|Modifies object|A|Hard
+Q735|Which of these statements about Python’s re module match() function is true?|Matches pattern at start of string|Matches anywhere|Deletes string|Overrides string|Modifies string|A|Hard
+Q736|Which of these statements about Python’s re module search() function is true?|Searches pattern anywhere in string|Matches only start|Deletes string|Overrides string|Modifies string|A|Hard
+Q737|Which of these statements about Python’s re module fullmatch() function is true?|Matches entire string|Matches substring|Deletes string|Overrides string|Modifies string|A|Hard
+Q738|Which of these statements about Python’s re module findall() function is true?|Returns all non-overlapping matches|Returns first match only|Deletes string|Overrides string|Modifies string|A|Hard
+Q739|Which of these statements about Python’s re module finditer() function is true?|Returns iterator of match objects|Returns list of matches|Deletes string|Overrides string|Modifies string|A|Hard
+Q740|Which of these statements about Python’s re module split() function is true?|Splits string by pattern|Splits string by whitespace|Deletes string|Overrides string|Modifies string|A|Hard
+Q741|Which of these statements about Python’s re module sub() function is true?|Replaces matches with string|Deletes matches|Overrides string|Modifies string|A|Hard
+Q742|Which of these statements about Python’s re module subn() function is true?|Replaces matches and returns count|Only replaces matches|Deletes string|Overrides string|Modifies string|A|Hard
+Q743|Which of these statements about Python’s re module compile() function is true?|Compiles regex for reuse|Matches regex immediately|Deletes regex|Overrides regex|Modifies regex|A|Hard
+Q744|Which of these statements about Python’s Python logging module basicConfig() function is true?|Configures basic logging setup|Writes log immediately|Deletes log|Overrides log|Modifies log|A|Hard
+Q745|Which of these statements about Python’s logging module getLogger() function is true?|Returns logger instance|Writes log immediately|Deletes log|Overrides log|Modifies log|A|Hard
+Q746|Which of these statements about Python’s logging module debug(), info(), warning(), error(), critical() methods is true?|Logs messages at different severity levels|Deletes log|Overrides log|Modifies log|A|Hard
+Q747|Which of these statements about Python’s logging module setLevel() method is true?|Sets logger level|Writes log|Deletes log|Overrides log|Modifies log|A|Hard
+Q748|Which of these statements about Python’s logging module addHandler() method is true?|Adds handler to logger|Deletes handler|Overrides handler|Modifies handler|A|Hard
+Q749|Which of these statements about Python’s logging module removeHandler() method is true?|Removes handler from logger|Adds handler|Overrides handler|Modifies handler|A|Hard
+Q750|Which of these statements about Python’s Python argparse module ArgumentParser class is true?|Creates argument parser|Deletes parser|Overrides parser|Modifies parser|A|Hard
+Q751|Which of these statements about Python’s argparse module add_argument() method is true?|Adds argument specification|Deletes argument|Overrides argument|Modifies argument|A|Hard
+Q752|Which of these statements about Python’s argparse module parse_args() method is true?|Parses command-line arguments|Adds arguments|Deletes arguments|Overrides arguments|Modifies arguments|A|Hard
+Q753|Which of these statements about Python’s Python subprocess module run() function is true?|Runs command in subprocess|Kills process|Deletes process|Overrides process|Modifies process|A|Hard
+Q754|Which of these statements about Python’s subprocess module Popen class is true?|Starts subprocess and gives control|Runs command only|Deletes process|Overrides process|Modifies process|A|Hard
+Q755|Which of these statements about Python’s subprocess module PIPE constant is true?|Represents standard stream|Represents file|Deletes stream|Overrides stream|Modifies stream|A|Hard
+Q756|Which of these statements about Python’s subprocess module communicate() method is true?|Interacts with process I/O|Kills process|Deletes process|Overrides process|Modifies process|A|Hard
+Q757|Which of these statements about Python’s Python socket module socket() function is true?|Creates network socket|Deletes socket|Overrides socket|Modifies socket|A|Hard
+Q758|Which of these statements about Python’s socket module bind() method is true?|Binds socket to address|Connects socket|Deletes socket|Overrides socket|Modifies socket|A|Hard
+Q759|Which of these statements about Python’s socket module listen() method is true?|Enables socket to accept connections|Sends data|Deletes socket|Overrides socket|Modifies socket|A|Hard
+Q760|Which of these statements about Python’s socket module accept() method is true?|Accepts incoming connection|Connects socket|Deletes socket|Overrides socket|Modifies socket|A|Hard
+Q761|Which of these statements about Python’s socket module connect() method is true?|Connects to remote socket|Accepts connection|Deletes socket|Overrides socket|Modifies socket|A|Hard
+Q762|Which of these statements about Python’s socket module send() and sendall() methods is true?|Sends data over socket|Receives data|Deletes data|Overrides data|Modifies data|A|Hard
+Q763|Which of these statements about Python’s socket module recv() method is true?|Receives data from socket|Sends data|Deletes data|Overrides data|Modifies data|A|Hard
+Q764|Which of these statements about Python’s socket module close() method is true?|Closes socket|Opens socket|Deletes socket|Overrides socket|Modifies socket|A|Hard
+Q765|Which of these statements about Python’s Python threading module Thread class is true?|Represents a thread of execution|Represents process|Deletes thread|Overrides thread|Modifies thread|A|Hard
+Q766|Which of these statements about Python’s threading module start() method is true?|Starts thread execution|Joins thread|Deletes thread|Overrides thread|Modifies thread|A|Hard
+Q767|Which of these statements about Python’s threading module join() method is true?|Waits for thread to finish|Starts thread|Deletes thread|Overrides thread|Modifies thread|A|Hard
+Q768|Which of these statements about Python’s threading module is_alive() method is true?|Checks if thread is alive|Starts thread|Deletes thread|Overrides thread|Modifies thread|A|Hard
+Q769|Which of these statements about Python’s threading module Lock class is true?|Provides mutual exclusion|Starts thread|Deletes lock|Overrides lock|Modifies lock|A|Hard
+Q770|Which of these statements about Python’s threading module acquire() method is true?|Acquires lock|Releases lock|Deletes lock|Overrides lock|Modifies lock|A|Hard
+Q771|Which of these statements about Python’s threading module release() method is true?|Releases lock|Acquires lock|Deletes lock|Overrides lock|Modifies lock|A|Hard
+Q772|Which of these statements about Python’s Python multiprocessing module Process class is true?|Represents a process|Represents thread|Deletes process|Overrides process|Modifies process|A|Hard
+Q773|Which of these statements about Python’s multiprocessing module start() method is true?|Starts process|Joins process|Deletes process|Overrides process|Modifies process|A|Hard
+Q774|Which of these statements about Python’s multiprocessing module join() method is true?|Waits for process to finish|Starts process|Deletes process|Overrides process|Modifies process|A|Hard
+Q775|Which of these statements about Python’s multiprocessing module Pool class is true?|Manages pool of worker processes|Manages threads|Deletes pool|Overrides pool|Modifies pool|A|Hard
+Q776|Which of these statements about Python’s multiprocessing module map() method is true?|Applies function to iterable in parallel|Applies function sequentially|Deletes data|Overrides data|Modifies data|A|Hard
+Q777|Which of these statements about Python’s Python asyncio module run() function is true?|Runs async function until complete|Runs sync function|Deletes task|Overrides task|Modifies task|A|Hard
+Q778|Which of these statements about Python’s asyncio module create_task() function is true?|Schedules async function as Task|Runs synchronously|Deletes task|Overrides task|Modifies task|A|Hard
+Q779|Which of these statements about Python’s asyncio module gather() function is true?|Runs multiple coroutines concurrently|Runs sequentially|Deletes tasks|Overrides tasks|Modifies tasks|A|Hard
+Q780|Which of these statements about Python’s asyncio module sleep() function is true?|Non-blocking async sleep|Blocking sleep|Deletes task|Overrides task|Modifies task|A|Hard
+Q781|Which of these statements about Python’s Python contextlib module suppress() function is true?|Suppresses specified exceptions|Raises exceptions|Deletes exception|Overrides exception|Modifies exception|A|Hard
+Q782|Which of these statements about Python’s Python decimal module Decimal class is true?|Represents fixed-point or floating-point decimal|Represents binary float|Deletes number|Overrides number|Modifies number|A|Hard
+Q783|Which of these statements about Python’s decimal module getcontext() function is true?|Returns current context|Deletes context|Overrides context|Modifies context|A|Hard
+Q784|Which of these statements about Python’s decimal module setcontext() function is true?|Sets current context|Deletes context|Overrides context|Modifies context|A|Hard
+Q785|Which of these statements about Python’s decimal module quantize() method is true?|Rounds to specified precision|Deletes number|Overrides number|Modifies number|A|Hard
+Q786|Which of these statements about Python’s Python fractions module Fraction class is true?|Represents rational numbers|Represents floats|Deletes number|Overrides number|Modifies number|A|Hard
+Q787|Which of these statements about Python’s fractions module limit_denominator() method is true?|Finds closest fraction with limited denominator|Deletes fraction|Overrides fraction|Modifies fraction|A|Hard
+Q788|Which of these statements about Python’s Python bisect module bisect() function is true?|Finds insertion point in sorted list|Deletes element|Overrides element|Modifies element|A|Hard
+Q789|Which of these statements about Python’s bisect module insort() function is true?|Inserts element in sorted list|Deletes element|Overrides element|Modifies element|A|Hard
+Q790|Which of these statements about Python’s Python heapq module heappush() function is true?|Pushes element onto heap|Pops element|Deletes element|Overrides element|Modifies element|A|Hard
+Q791|Which of these statements about Python’s heapq module heappop() function is true?|Pops smallest element|Pushes element|Deletes element|Overrides element|Modifies element|A|Hard
+Q792|Which of these statements about Python’s heapq module heapify() function is true?|Transforms list into heap|Deletes list|Overrides list|Modifies list|A|Hard
+Q793|Which of these statements about Python’s Python collections module namedtuple() function is true?|Creates tuple subclass with named fields|Creates dictionary|Deletes object|Overrides object|Modifies object|A|Hard
+Q794|Which of these statements about Python’s collections module deque class is true?|Double-ended queue|Single-ended queue|Deletes object|Overrides object|Modifies object|A|Hard
+Q795|Which of these statements about Python’s collections module Counter class is true?|Counts hashable objects|Creates list|Deletes object|Overrides object|Modifies object|A|Hard
+Q796|Which of these statements about Python’s collections module OrderedDict class is true?|Dictionary that remembers insertion order|Normal dict|Deletes object|Overrides object|Modifies object|A|Hard
+Q797|Which of these statements about Python’s collections module defaultdict class is true?|Dict with default factory|Normal dict|Deletes object|Overrides object|Modifies object|A|Hard
+Q798|Which of these statements about Python’s Python itertools module count() function is true?|Infinite counter|Finite counter|Deletes iterator|Overrides iterator|Modifies iterator|A|Hard
+Q799|Which of these statements about Python’s itertools module cycle() function is true?|Cycles through iterable infinitely|Cycles once|Deletes iterator|Overrides iterator|Modifies iterator|A|Hard
+Q800|Which of these statements about Python’s itertools module chain() function is true?|Chains multiple iterables|Deletes iterator|Overrides iterator|Modifies iterator|A|Hard
+Q801|Which of these statements about Python’s itertools module zip_longest() function is true?|Zips iterables filling missing values|Zips only until shortest iterable|Deletes iterator|Overrides iterator|Modifies iterator|A|Hard
+Q802|Which of these statements about Python’s itertools module permutations() function is true?|Returns all possible orderings|Returns first ordering only|Deletes iterator|Overrides iterator|Modifies iterator|A|Hard
+Q803|Which of these statements about Python’s itertools module combinations() function is true?|Returns r-length combinations of iterable|Returns all combinations|Deletes iterator|Overrides iterator|Modifies iterator|A|Hard
+Q804|Which of these statements about Python’s itertools module product() function is true?|Returns Cartesian product|Returns sum of elements|Deletes iterator|Overrides iterator|Modifies iterator|A|Hard
+Q805|Which of these statements about Python’s functools module reduce() function is true?|Applies function cumulatively|Applies function once|Deletes data|Overrides data|Modifies data|A|Hard
+Q806|Which of these statements about Python’s functools module lru_cache() decorator is true?|Caches function results|Deletes cache|Overrides cache|Modifies cache|A|Hard
+Q807|Which of these statements about Python’s functools module partial() function is true?|Creates partially applied function|Creates full function|Deletes function|Overrides function|Modifies function|A|Hard
+Q808|Which of these statements about Python’s functools module wraps() decorator is true?|Preserves metadata of original function|Changes metadata|Deletes function|Overrides function|Modifies function|A|Hard
+Q809|Which of these statements about Python’s functools module total_ordering() decorator is true?|Generates missing ordering methods|Deletes class|Overrides class|Modifies class|A|Hard
+Q810|Which of these statements about Python’s itertools module starmap() function is true?|Applies function using argument tuples|Applies function to single argument|Deletes data|Overrides data|Modifies data|A|Hard
+Q811|Which of these statements about Python’s itertools module repeat() function is true?|Repeats object indefinitely or n times|Repeats object once|Deletes object|Overrides object|Modifies object|A|Hard
+Q812|Which of these statements about Python’s itertools module takewhile() function is true?|Yields items while predicate is true|Yields all items|Deletes data|Overrides data|Modifies data|A|Hard
+Q813|Which of these statements about Python’s itertools module dropwhile() function is true?|Skips items while predicate is true|Yields all items|Deletes data|Overrides data|Modifies data|A|Hard
+Q814|Which of these statements about Python’s itertools module filterfalse() function is true?|Yields items where predicate is false|Yields items where predicate is true|Deletes data|Overrides data|Modifies data|A|Hard
+Q815|Which of these statements about Python’s itertools module islice() function is true?|Slices an iterable|Deletes iterable|Overrides iterable|Modifies iterable|A|Hard
+Q816|Which of these statements about Python’s Python typing module List type hint is true?|Specifies list element type|Deletes list|Overrides list|Modifies list|A|Hard
+Q817|Which of these statements about Python’s typing module Dict type hint is true?|Specifies dict key/value types|Deletes dict|Overrides dict|Modifies dict|A|Hard
+Q818|Which of these statements about Python’s typing module Tuple type hint is true?|Specifies tuple element types|Deletes tuple|Overrides tuple|Modifies tuple|A|Hard
+Q819|Which of these statements about Python’s typing module Optional type hint is true?|Indicates value may be None|Indicates value is mandatory|Deletes object|Overrides object|Modifies object|A|Hard
+Q820|Which of these statements about Python’s typing module Union type hint is true?|Specifies multiple allowed types|Specifies single type|Deletes object|Overrides object|Modifies object|A|Hard
+Q821|Which of these statements about Python’s typing module Any type hint is true?|Allows any type|Restricts type|Deletes object|Overrides object|Modifies object|A|Hard
+Q822|Which of these statements about Python’s typing module Callable type hint is true?|Specifies a callable signature|Specifies a variable|Deletes function|Overrides function|Modifies function|A|Hard
+Q823|Which of these statements about Python’s typing module NewType function is true?|Creates distinct type alias|Changes type|Deletes type|Overrides type|Modifies type|A|Hard
+Q824|Which of these statements about Python’s Python dataclasses module dataclass decorator is true?|Generates boilerplate methods|Deletes class|Overrides class|Modifies class|A|Hard
+Q825|Which of these statements about Python’s dataclasses.field() function is true?|Specifies field parameters|Deletes field|Overrides field|Modifies field|A|Hard
+Q826|Which of these statements about Python’s dataclasses.asdict() function is true?|Converts dataclass to dict|Deletes dataclass|Overrides dataclass|Modifies dataclass|A|Hard
+Q827|Which of these statements about Python’s dataclasses.astuple() function is true?|Converts dataclass to tuple|Deletes dataclass|Overrides dataclass|Modifies dataclass|A|Hard
+Q828|Which of these statements about Python’s dataclasses.replace() function is true?|Returns new instance with fields replaced|Modifies original|Deletes dataclass|Overrides dataclass|A|Hard
+Q829|Which of these statements about Python’s enum module Enum class is true?|Creates enumeration|Deletes enum|Overrides enum|Modifies enum|A|Hard
+Q830|Which of these statements about Python’s enum module auto() function is true?|Automatically assigns values|Requires manual values|Deletes enum|Overrides enum|Modifies enum|A|Hard
+Q831|Which of these statements about Python’s enum module IntEnum class is true?|Enum with integer values|Enum with string values|Deletes enum|Overrides enum|Modifies enum|A|Hard
+Q832|Which of these statements about Python’s enum module unique() decorator is true?|Ensures all enum values are unique|Allows duplicate values|Deletes enum|Overrides enum|Modifies enum|A|Hard
+Q833|Which of these statements about Python’s Python pathlib module Path class is true?|Represents filesystem path|Represents string|Deletes path|Overrides path|Modifies path|A|Hard
+Q834|Which of these statements about Python’s pathlib module exists() method is true?|Checks if path exists|Deletes path|Overrides path|Modifies path|A|Hard
+Q835|Which of these statements about Python’s pathlib module is_file() method is true?|Checks if path is a file|Checks if directory|Deletes path|Overrides path|Modifies path|A|Hard
+Q836|Which of these statements about Python’s pathlib module is_dir() method is true?|Checks if path is a directory|Checks if file|Deletes path|Overrides path|Modifies path|A|Hard
+Q837|Which of these statements about Python’s pathlib module read_text() method is true?|Reads file content as string|Writes content|Deletes file|Overrides file|Modifies file|A|Hard
+Q838|Which of these statements about Python’s pathlib module write_text() method is true?|Writes string to file|Reads content|Deletes file|Overrides file|Modifies file|A|Hard
+Q839|Which of these statements about Python’s pathlib module read_bytes() method is true?|Reads file content as bytes|Writes content|Deletes file|Overrides file|Modifies file|A|Hard
+Q840|Which of these statements about Python’s pathlib module write_bytes() method is true?|Writes bytes to file|Reads bytes|Deletes file|Overrides file|Modifies file|A|Hard
+Q841|Which of these statements about Python’s pathlib module glob() method is true?|Finds files matching pattern|Deletes files|Overrides files|Modifies files|A|Hard
+Q842|Which of these statements about Python’s pathlib module rglob() method is true?|Finds files recursively matching pattern|Deletes files|Overrides files|Modifies files|A|Hard
+Q843|Which of these statements about Python’s Python zipfile module ZipFile class is true?|Handles zip archives|Handles text files|Deletes file|Overrides file|Modifies file|A|Hard
+Q844|Which of these statements about Python’s zipfile module extractall() method is true?|Extracts all files from archive|Deletes archive|Overrides archive|Modifies archive|A|Hard
+Q845|Which of these statements about Python’s zipfile module write() method is true?|Adds file to archive|Reads file|Deletes archive|Overrides archive|Modifies archive|A|Hard
+Q846|Which of these statements about Python’s zipfile module namelist() method is true?|Lists all files in archive|Deletes archive|Overrides archive|Modifies archive|A|Hard
+Q847|Which of these statements about Python’s Python tarfile module TarFile class is true?|Handles tar archives|Handles text files|Deletes archive|Overrides archive|Modifies archive|A|Hard
+Q848|Which of these statements about Python’s tarfile module extractall() method is true?|Extracts all files from archive|Deletes archive|Overrides archive|Modifies archive|A|Hard
+Q849|Which of these statements about Python’s tarfile module add() method is true?|Adds file to archive|Deletes file|Overrides archive|Modifies archive|A|Hard
+Q850|Which of these statements about Python’s tarfile module getnames() method is true?|Lists names of all members|Deletes archive|Overrides archive|Modifies archive|A|Hard
+Q851|Which of these statements about Python’s hashlib module md5() function is true?|Returns MD5 hash object|Returns SHA hash|Deletes data|Overrides data|Modifies data|A|Hard
+Q852|Which of these statements about Python’s hashlib module sha256() function is true?|Returns SHA256 hash object|Returns MD5 hash|Deletes data|Overrides data|Modifies data|A|Hard
+Q853|Which of these statements about Python’s hashlib module sha512() function is true?|Returns SHA512 hash object|Returns SHA256 hash|Deletes data|Overrides data|Modifies data|A|Hard
+Q854|Which of these statements about Python’s hashlib module update() method is true?|Updates hash with bytes|Deletes hash|Overrides hash|Modifies hash|A|Hard
+Q855|Which of these statements about Python’s hashlib module digest() method is true?|Returns bytes digest|Returns hex string|Deletes hash|Overrides hash|Modifies hash|A|Hard
+Q856|Which of these statements about Python’s hashlib module hexdigest() method is true?|Returns hex string digest|Returns bytes|Deletes hash|Overrides hash|Modifies hash|A|Hard
+Q857|Which of these statements about Python’s hmac module HMAC class is true?|Implements keyed-hash message authentication|Deletes HMAC|Overrides HMAC|Modifies HMAC|A|Hard
+Q858|Which of these statements about Python’s hmac module new() function is true?|Creates HMAC object|Deletes HMAC|Overrides HMAC|Modifies HMAC|A|Hard
+Q859|Which of these statements about Python’s secrets module token_bytes() function is true?|Generates secure random bytes|Generates deterministic bytes|Deletes data|Overrides data|Modifies data|A|Hard
+Q860|Which of these statements about Python’s secrets module token_hex() function is true?|Generates secure hex string|Generates decimal string|Deletes data|Overrides data|Modifies data|A|Hard
+Q861|Which of these statements about Python’s secrets module token_urlsafe() function is true?|Generates URL-safe string|Generates non-safe string|Deletes data|Overrides data|Modifies data|A|Hard
+Q862|Which of these statements about Python’s secrets module choice() function is true?|Selects secure random element|Selects first element|Deletes data|Overrides data|Modifies data|A|Hard
+Q863|Which of these statements about Python’s secrets module randbelow() function is true?|Returns random int below given|Returns int above given|Deletes data|Overrides data|Modifies data|A|Hard
+Q864|Which of these statements about Python’s secrets module compare_digest() function is true?|Compares securely two strings|Compares normally|Deletes data|Overrides data|Modifies data|A|Hard
+Q865|Which of these statements about Python’s math module sqrt() function is true?|Returns square root|Returns square|Deletes number|Overrides number|Modifies number|A|Hard
+Q866|Which of these statements about Python’s math module ceil() function is true?|Rounds up to nearest integer|Rounds down|Deletes number|Overrides number|Modifies number|A|Hard
+Q867|Which of these statements about Python’s math module floor() function is true?|Rounds down to nearest integer|Rounds up|Deletes number|Overrides number|Modifies number|A|Hard
+Q868|Which of these statements about Python’s math module factorial() function is true?|Returns factorial of integer|Returns double factorial|Deletes number|Overrides number|Modifies number|A|Hard
+Q869|Which of these statements about Python’s math module gcd() function is true?|Returns greatest common divisor|Returns least common multiple|Deletes number|Overrides number|Modifies number|A|Hard
+Q870|Which of these statements about Python’s math module lcm() function is true?|Returns least common multiple|Returns gcd|Deletes number|Overrides number|Modifies number|A|Hard
+Q871|Which of these statements about Python’s math module pow() function is true?|Returns x**y|Returns x+y|Deletes number|Overrides number|Modifies number|A|Hard
+Q872|Which of these statements about Python’s math module isclose() function is true?|Checks approximate equality|Checks exact equality|Deletes number|Overrides number|Modifies number|A|Hard
+Q873|Which of these statements about Python’s math module degrees() function is true?|Converts radians to degrees|Converts degrees to radians|Deletes number|Overrides number|Modifies number|A|Hard
+Q874|Which of these statements about Python’s math module radians() function is true?|Converts degrees to radians|Converts radians to degrees|Deletes number|Overrides number|Modifies number|A|Hard
+Q875|Which of these statements about Python’s math module trunc() function is true?|Truncates decimal part|Rounds up|Deletes number|Overrides number|Modifies number|A|Hard
+Q876|Which of these statements about Python’s math module copysign() function is true?|Returns number with magnitude of first and sign of second|Returns sum|Deletes number|Overrides number|Modifies number|A|Hard
+Q877|Which of these statements about Python’s math module frexp() function is true?|Returns mantissa and exponent|Returns fraction|Deletes number|Overrides number|Modifies number|A|Hard
+Q878|Which of these statements about Python’s math module ldexp() function is true?|Returns x * (2**i)|Returns x+i|Deletes number|Overrides number|Modifies number|A|Hard
+Q879|Which of these statements about Python’s math module fmod() function is true?|Returns modulo|Returns remainder|Deletes number|Overrides number|Modifies number|A|Hard
+Q880|Which of these statements about Python’s math module modf() function is true?|Returns fractional and integer parts|Returns sum|Deletes number|Overrides number|Modifies number|A|Hard
+Q881|Which of these statements about Python’s random module seed() function is true?|Initializes random number generator|Generates random|Deletes state|Overrides state|Modifies state|A|Hard
+Q882|Which of these statements about Python’s random module randint() function is true?|Returns random integer in range|Returns float|Deletes number|Overrides number|Modifies number|A|Hard
+Q883|Which of these statements about Python’s random module choice() function is true?|Selects random element from sequence|Selects first element|Deletes element|Overrides element|Modifies element|A|Hard
+Q884|Which of these statements about Python’s random module shuffle() function is true?|Shuffles sequence in-place|Returns new sequence|Deletes sequence|Overrides sequence|Modifies sequence|A|Hard
+Q885|Which of these statements about Python’s random module sample() function is true?|Returns k unique elements|Returns first k elements|Deletes sequence|Overrides sequence|Modifies sequence|A|Hard
+Q886|Which of these statements about Python’s random module uniform() function is true?|Returns random float in range|Returns integer|Deletes number|Overrides number|Modifies number|A|Hard
+Q887|Which of these statements about Python’s random module betavariate() function is true?|Returns beta-distributed float|Returns uniform float|Deletes number|Overrides number|Modifies number|A|Hard
+Q888|Which of these statements about Python’s random module expovariate() function is true?|Returns exponentially-distributed float|Returns uniform float|Deletes number|Overrides number|Modifies number|A|Hard
+Q889|Which of these statements about Python’s random module gauss() function is true?|Returns normally-distributed float|Returns uniform float|Deletes number|Overrides number|Modifies number|A|Hard
+Q890|Which of these statements about Python’s random module randint() function is true?|Returns random integer in inclusive range|Returns exclusive range|Deletes number|Overrides number|Modifies number|A|Hard
+Q891|Which of these statements about Python’s random module randrange() function is true?|Returns random integer from range|Returns float|Deletes number|Overrides number|Modifies number|A|Hard
+Q892|Which of these statements about Python’s random module getrandbits() function is true?|Returns an int with k random bits|Returns float|Deletes number|Overrides number|Modifies number|A|Hard
+Q893|Which of these statements about Python’s random module choices() function is true?|Selects multiple elements with replacement|Selects single element|Deletes elements|Overrides elements|Modifies elements|A|Hard
+Q894|Which of these statements about Python’s itertools module tee() function is true?|Returns n independent iterators from single iterable|Returns single iterator|Deletes iterable|Overrides iterable|Modifies iterable|A|Hard
+Q895|Which of these statements about Python’s itertools module accumulate() function is true?|Returns accumulated sums or results of binary function|Returns plain iterable|Deletes iterable|Overrides iterable|Modifies iterable|A|Hard
+Q896|Which of these statements about Python’s built-in memoryview object is true?|Provides view of bytes-like object without copying|Copies data|Deletes object|Overrides object|Modifies object|A|Hard
+Q897|Which of these statements about Python’s bytearray object is true?|Mutable sequence of bytes|Immutable bytes|Deletes object|Overrides object|Modifies object|A|Hard
+Q898|Which of these statements about Python’s bytes object is true?|Immutable sequence of bytes|Mutable bytes|Deletes object|Overrides object|Modifies object|A|Hard
+Q899|Which of these statements about Python’s built-in complex() function is true?|Returns complex number|Returns float|Deletes object|Overrides object|Modifies object|A|Hard
+Q900|Which of these statements about Python’s built-in divmod() function is true?|Returns quotient and remainder|Returns sum|Deletes numbers|Overrides numbers|Modifies numbers|A|Hard
+Q901|Which of these statements about Python’s built-in pow() function with three arguments is true?|Computes (x**y) % z efficiently|Computes x+y+z|Deletes numbers|Overrides numbers|Modifies numbers|A|Hard
+Q902|Which of these statements about Python’s built-in round() function is true?|Rounds a number to given precision|Truncates number|Deletes number|Overrides number|Modifies number|A|Hard
+Q903|Which of these statements about Python’s built-in hash() function is true?|Returns hash value of object|Returns string value|Deletes object|Overrides object|Modifies object|A|Hard
+Q904|Which of these statements about Python’s built-in isinstance() function is true?|Checks object type|Changes object type|Deletes object|Overrides object|Modifies object|A|Hard
+Q905|Which of these statements about Python’s built-in issubclass() function is true?|Checks class inheritance|Creates subclass|Deletes class|Overrides class|Modifies class|A|Hard
+Q906|Which of these statements about Python’s built-in hasattr() function is true?|Checks if object has attribute|Adds attribute|Deletes attribute|Overrides attribute|Modifies attribute|A|Hard
+Q907|Which of these statements about Python’s built-in getattr() function is true?|Returns attribute value|Sets attribute|Deletes attribute|Overrides attribute|Modifies attribute|A|Hard
+Q908|Which of these statements about Python’s built-in setattr() function is true?|Sets attribute value|Gets attribute|Deletes attribute|Overrides attribute|Modifies attribute|A|Hard
+Q909|Which of these statements about Python’s built-in delattr() function is true?|Deletes attribute from object|Gets attribute|Sets attribute|Overrides attribute|Modifies attribute|A|Hard
+Q910|Which of these statements about Python’s built-in globals() function is true?|Returns global symbol table|Deletes globals|Overrides globals|Modifies globals|A|Hard
+Q911|Which of these statements about Python’s built-in locals() function is true?|Returns local symbol table|Deletes locals|Overrides locals|Modifies locals|A|Hard
+Q912|Which of these statements about Python’s built-in dir() function is true?|Lists attributes of object|Deletes object|Overrides object|Modifies object|A|Hard
+Q913|Which of these statements about Python’s built-in eval() function is true?|Evaluates string as Python expression|Deletes code|Overrides code|Modifies code|A|Hard
+Q914|Which of these statements about Python’s built-in exec() function is true?|Executes dynamically generated code|Deletes code|Overrides code|Modifies code|A|Hard
+Q915|Which of these statements about Python’s built-in compile() function is true?|Compiles source into code object|Deletes code|Overrides code|Modifies code|A|Hard
+Q916|Which of these statements about Python’s built-in memoryview object is true?|Provides memory view of bytes-like object|Copies data|Deletes object|Overrides object|Modifies object|A|Hard
+Q917|Which of these statements about Python’s built-in slice object is true?|Represents slice indices|Deletes object|Overrides object|Modifies object|A|Hard
+Q918|Which of these statements about Python’s built-in property() function is true?|Creates managed attribute|Deletes attribute|Overrides attribute|Modifies attribute|A|Hard
+Q919|Which of these statements about Python’s built-in super() function is true?|Accesses parent class methods|Deletes class|Overrides class|Modifies class|A|Hard
+Q920|Which of these statements about Python’s built-in __import__() function is true?|Imports module dynamically|Deletes module|Overrides module|Modifies module|A|Hard
+Q921|Which of these statements about Python’s built-in object() is true?|Creates base object|Deletes object|Overrides object|Modifies object|A|Hard
+Q922|Which of these statements about Python’s built-in iter() function is true?|Returns iterator from iterable|Deletes iterable|Overrides iterable|Modifies iterable|A|Hard
+Q923|Which of these statements about Python’s built-in next() function is true?|Returns next item from iterator|Deletes iterator|Overrides iterator|Modifies iterator|A|Hard
+Q924|Which of these statements about Python’s built-in reversed() function is true?|Returns reverse iterator|Deletes iterable|Overrides iterable|Modifies iterable|A|Hard
+Q925|Which of these statements about Python’s built-in zip() function is true?|Aggregates elements from iterables|Deletes iterables|Overrides iterables|Modifies iterables|A|Hard
+Q926|Which of these statements about Python’s built-in map() function is true?|Applies function to iterable|Deletes iterable|Overrides iterable|Modifies iterable|A|Hard
+Q927|Which of these statements about Python’s built-in filter() function is true?|Filters iterable using function|Deletes iterable|Overrides iterable|Modifies iterable|A|Hard
+Q928|Which of these statements about Python’s built-in enumerate() function is true?|Adds counter to iterable|Deletes iterable|Overrides iterable|Modifies iterable|A|Hard
+Q929|Which of these statements about Python’s built-in abs() function is true?|Returns absolute value|Deletes number|Overrides number|Modifies number|A|Hard
+Q930|Which of these statements about Python’s built-in divmod() function is true?|Returns quotient and remainder|Deletes numbers|Overrides numbers|Modifies numbers|A|Hard
+Q931|Which of these statements about Python’s built-in min() function is true?|Returns smallest element|Returns largest|Deletes data|Overrides data|Modifies data|A|Hard
+Q932|Which of these statements about Python’s built-in max() function is true?|Returns largest element|Returns smallest|Deletes data|Overrides data|Modifies data|A|Hard
+Q933|Which of these statements about Python’s built-in sum() function is true?|Returns sum of elements|Deletes data|Overrides data|Modifies data|A|Hard
+Q934|Which of these statements about Python’s built-in all() function is true?|Returns True if all elements are True|Returns False always|Deletes data|Overrides data|Modifies data|A|Hard
+Q935|Which of these statements about Python’s built-in any() function is true?|Returns True if any element is True|Returns False always|Deletes data|Overrides data|Modifies data|A|Hard
+Q936|Which of these statements about Python’s built-in bin() function is true?|Returns binary string of int|Deletes number|Overrides number|Modifies number|A|Hard
+Q937|Which of these statements about Python’s built-in oct() function is true?|Returns octal string of int|Deletes number|Overrides number|Modifies number|A|Hard
+Q938|Which of these statements about Python’s built-in hex() function is true?|Returns hexadecimal string of int|Deletes number|Overrides number|Modifies number|A|Hard
+Q939|Which of these statements about Python’s built-in ord() function is true?|Returns Unicode code point of char|Deletes char|Overrides char|Modifies char|A|Hard
+Q940|Which of these statements about Python’s built-in chr() function is true?|Returns char from Unicode code point|Deletes number|Overrides number|Modifies number|A|Hard
+Q941|Which of these statements about Python’s built-in len() function is true?|Returns length of object|Deletes object|Overrides object|Modifies object|A|Hard
+Q942|Which of these statements about Python’s built-in range() function is true?|Returns range object|Deletes object|Overrides object|Modifies object|A|Hard
+Q943|Which of these statements about Python’s built-in slice() function is true?|Creates slice object|Deletes object|Overrides object|Modifies object|A|Hard
+Q944|Which of these statements about Python’s built-in format() function is true?|Formats value into string|Deletes value|Overrides value|Modifies value|A|Hard
+Q945|Which of these statements about Python’s built-in repr() function is true?|Returns string representation|Deletes object|Overrides object|Modifies object|A|Hard
+Q946|Which of these statements about Python’s built-in ascii() function is true?|Returns ASCII-safe string|Deletes object|Overrides object|Modifies object|A|Hard
+Q947|Which of these statements about Python’s built-in eval() function is true?|Evaluates string as Python expression|Deletes code|Overrides code|Modifies code|A|Hard
+Q948|Which of these statements about Python’s built-in globals() function is true?|Returns global symbol table|Deletes globals|Overrides globals|Modifies globals|A|Hard
+Q949|Which of these statements about Python’s built-in locals() function is true?|Returns local symbol table|Deletes locals|Overrides locals|Modifies locals|A|Hard
+Q950|Which of these statements about Python’s built-in __import__() function is true?|Imports module dynamically|Deletes module|Overrides module|Modifies module|A|Hard
+Q951|Which of these statements about Python’s built-in open() function is true?|Opens file and returns file object|Deletes file|Overrides file|Modifies file|A|Hard
+Q952|Which of these statements about Python’s open() mode "rb" is true?|Opens file for reading in binary mode|Opens file for writing|Deletes file|Overrides file|Modifies file|A|Hard
+Q953|Which of these statements about Python’s open() mode "wb" is true?|Opens file for writing in binary mode|Opens for reading|Deletes file|Overrides file|Modifies file|A|Hard
+Q954|Which of these statements about Python’s open() mode "r+" is true?|Opens file for reading and writing|Opens only for reading|Deletes file|Overrides file|Modifies file|A|Hard
+Q955|Which of these statements about Python’s open() mode "w+" is true?|Opens file for writing and reading|Opens only for writing|Deletes file|Overrides file|Modifies file|A|Hard
+Q956|Which of these statements about Python’s open() method read() is true?|Reads file content|Writes content|Deletes file|Overrides file|Modifies file|A|Hard
+Q957|Which of these statements about Python’s open() method write() is true?|Writes string to file|Reads file|Deletes file|Overrides file|Modifies file|A|Hard
+Q958|Which of these statements about Python’s open() method readline() is true?|Reads single line from file|Reads whole file|Deletes file|Overrides file|Modifies file|A|Hard
+Q959|Which of these statements about Python’s open() method readlines() is true?|Reads all lines into list|Reads single line|Deletes file|Overrides file|Modifies file|A|Hard
+Q960|Which of these statements about Python’s open() method writelines() is true?|Writes list of strings to file|Reads file|Deletes file|Overrides file|Modifies file|A|Hard
+Q961|Which of these statements about Python’s os module getcwd() function is true?|Returns current working directory|Deletes directory|Overrides directory|Modifies directory|A|Hard
+Q962|Which of these statements about Python’s os module chdir() function is true?|Changes current working directory|Gets working directory|Deletes directory|Overrides directory|Modifies directory|A|Hard
+Q963|Which of these statements about Python’s os module listdir() function is true?|Returns list of files in directory|Deletes files|Overrides files|Modifies files|A|Hard
+Q964|Which of these statements about Python’s os module mkdir() function is true?|Creates new directory|Deletes directory|Overrides directory|Modifies directory|A|Hard
+Q965|Which of these statements about Python’s os module makedirs() function is true?|Creates nested directories|Deletes directories|Overrides directories|Modifies directories|A|Hard
+Q966|Which of these statements about Python’s os module remove() function is true?|Deletes file|Deletes directory|Overrides file|Modifies file|A|Hard
+Q967|Which of these statements about Python’s os module rmdir() function is true?|Deletes empty directory|Deletes file|Overrides directory|Modifies directory|A|Hard
+Q968|Which of these statements about Python’s os module rename() function is true?|Renames file or directory|Deletes file|Overrides file|Modifies file|A|Hard
+Q969|Which of these statements about Python’s os module path.join() function is true?|Joins path components|Deletes path|Overrides path|Modifies path|A|Hard
+Q970|Which of these statements about Python’s os module path.exists() function is true?|Checks if path exists|Deletes path|Overrides path|Modifies path|A|Hard
+Q971|Which of these statements about Python’s os module path.isfile() function is true?|Checks if path is a file|Checks if directory|Deletes path|Overrides path|Modifies path|A|Hard
+Q972|Which of these statements about Python’s os module path.isdir() function is true?|Checks if path is a directory|Checks if file|Deletes path|Overrides path|Modifies path|A|Hard
+Q973|Which of these statements about Python’s os module path.getsize() function is true?|Returns size of file|Deletes file|Overrides file|Modifies file|A|Hard
+Q974|Which of these statements about Python’s os module path.abspath() function is true?|Returns absolute path|Deletes path|Overrides path|Modifies path|A|Hard
+Q975|Which of these statements about Python’s os module path.basename() function is true?|Returns final component of path|Returns directory|Deletes path|Overrides path|Modifies path|A|Hard
+Q976|Which of these statements about Python’s os module path.dirname() function is true?|Returns directory portion of path|Returns file name|Deletes path|Overrides path|Modifies path|A|Hard
+Q977|Which of these statements about Python’s shutil module copy() function is true?|Copies file to destination|Moves file|Deletes file|Overrides file|Modifies file|A|Hard
+Q978|Which of these statements about Python’s shutil module copytree() function is true?|Copies directory recursively|Copies file only|Deletes directory|Overrides directory|Modifies directory|A|Hard
+Q979|Which of these statements about Python’s shutil module move() function is true?|Moves file or directory|Copies only|Deletes source|Overrides source|Modifies source|A|Hard
+Q980|Which of these statements about Python’s shutil module rmtree() function is true?|Deletes directory recursively|Deletes single file|Overrides directory|Modifies directory|A|Hard
+Q981|Which of these statements about Python’s subprocess module run() function is true?|Runs command in subprocess|Deletes process|Overrides process|Modifies process|A|Hard
+Q982|Which of these statements about Python’s subprocess module Popen() class is true?|Spawns subprocess for advanced control|Runs simple command|Deletes process|Overrides process|Modifies process|A|Hard
+Q983|Which of these statements about Python’s subprocess module PIPE constant is true?|Used for stdin/stdout/stderr|Deletes pipe|Overrides pipe|Modifies pipe|A|Hard
+Q984|Which of these statements about Python’s subprocess module communicate() method is true?|Sends input and reads output|Runs command|Deletes process|Overrides process|Modifies process|A|Hard
+Q985|Which of these statements about Python’s subprocess module check_output() function is true?|Runs command and returns output|Deletes output|Overrides output|Modifies output|A|Hard
+Q986|Which of these statements about Python’s subprocess module timeout parameter is true?|Limits execution time|Increases priority|Deletes process|Overrides process|Modifies process|A|Hard
+Q987|Which of these statements about Python’s built-in time module sleep() function is true?|Pauses execution|Deletes thread|Overrides thread|Modifies thread|A|Hard
+Q988|Which of these statements about Python’s time module time() function is true?|Returns current time in seconds|Deletes time|Overrides time|Modifies time|A|Hard
+Q989|Which of these statements about Python’s time module perf_counter() function is true?|Returns high-precision timer|Deletes counter|Overrides counter|Modifies counter|A|Hard
+Q990|Which of these statements about Python’s time module monotonic() function is true?|Returns monotonic clock|Deletes clock|Overrides clock|Modifies clock|A|Hard
+Q991|Which of these statements about Python’s datetime module datetime.now() function is true?|Returns current date and time|Deletes datetime|Overrides datetime|Modifies datetime|A|Hard
+Q992|Which of these statements about Python’s datetime module datetime.strptime() function is true?|Parses string to datetime|Formats datetime|Deletes datetime|Overrides datetime|Modifies datetime|A|Hard
+Q993|Which of these statements about Python’s datetime module datetime.strftime() function is true?|Formats datetime to string|Parses string|Deletes datetime|Overrides datetime|Modifies datetime|A|Hard
+Q994|Which of these statements about Python’s datetime module timedelta class is true?|Represents duration|Represents absolute date|Deletes object|Overrides object|Modifies object|A|Hard
+Q995|Which of these statements about Python’s datetime module replace() method is true?|Returns new datetime with replaced fields|Modifies original|Deletes datetime|Overrides datetime|A|Hard
+Q996|Which of these statements about Python’s datetime module isoformat() method is true?|Returns ISO 8601 string|Deletes datetime|Overrides datetime|Modifies datetime|A|Hard
+Q997|Which of these statements about Python’s datetime module fromtimestamp() function is true?|Creates datetime from timestamp|Deletes timestamp|Overrides timestamp|Modifies timestamp|A|Hard
+Q998|Which of these statements about Python’s datetime module utcnow() function is true?|Returns current UTC datetime|Returns local datetime|Deletes datetime|Overrides datetime|Modifies datetime|A|Hard
+Q999|Which of these statements about Python’s datetime module combine() function is true?|Combines date and time into datetime|Deletes datetime|Overrides datetime|Modifies datetime|A|Hard
+Q1000|Which of these statements about Python’s calendar module monthrange() function is true?|Returns first weekday and number of days|Returns calendar text|Deletes month|Overrides month|Modifies month|A|Hard
