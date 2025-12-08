@@ -48,6 +48,8 @@
 
 #include "quiz_application.h"
 
+char file_read_buffer[MAX_FILE_READ_SIZE];
+
 // --------------------------------------------------
 // file io functions
 // --------------------------------------------------
@@ -61,7 +63,7 @@ size_t load_questions(const char *filename, Quiz *quiz)
     if (fptr == NULL)
     {
         printf("ERROR: opening file: %s for reading.\n", filename);
-        return 1;
+        return 0;
     }
 
     /*
@@ -94,19 +96,19 @@ size_t load_questions(const char *filename, Quiz *quiz)
     char *saveptr;
     char *line = strtok_r(file_read_buffer, "\n", &saveptr);
 
+    quiz->total_questions = 0;
+
     while (line != NULL && quiz->total_questions < MAX_QUES_COUNT)
     {
         trim_newline(line);
 
         // Skip empty lines
-        if (line[0] != '\0')
-        {
-            Question *q = &quiz->questions[quiz->total_questions];
-
-            //
-        }
+        if (parse_question_line(line, &quiz->questions[quiz->total_questions]))
+            quiz->total_questions++;
+        line = strtok_r(NULL, "\n", &saveptr); // next line
     }
 
+    // printf("load questions: %d\n", quiz->total_questions);
     // Now entire file is in file_read_buffer
     // return number of valid bytes
     return bytes_read;

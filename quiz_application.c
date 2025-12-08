@@ -31,6 +31,8 @@
 // --------------------------------------------------
 #include <stdio.h>	// for printf(), scanf()
 #include <string.h> // for strcmp()
+#include <stdlib.h> // for srand()
+#include <time.h>	// for time()
 
 #include "quiz_application.h"
 
@@ -39,11 +41,13 @@
 // --------------------------------------------------
 int main(int argc, const char *argv[])
 {
+	// Seed randomness
+	srand(time(NULL));
 	if (argc == 1)
 		quiz_main();
 	if (argc == 2)
 	{
-		if (strcmp(argv[1], "-h") == 0 || strcmp(argv[1], "--version") == 0)
+		if (strcmp(argv[1], "-h") == 0 || strcmp(argv[1], "--help") == 0)
 			display_help(argv[0]);
 		else if (strcmp(argv[1], "-v") == 0 || strcmp(argv[1], "--version") == 0)
 			display_version(argv[0]);
@@ -55,7 +59,7 @@ int main(int argc, const char *argv[])
 		printf("Invalid Input.\n");
 		display_help(argv[0]);
 	}
-	return 0;
+	return 1;
 }
 
 // --------------------------------------------------
@@ -65,24 +69,39 @@ int main(int argc, const char *argv[])
 // intialize, load questions start quiz and display result and store
 void quiz_main()
 {
-	Result *result;
-	Quiz *quiz;
-	initialize_quiz(quiz);
+	Quiz quiz;
+	Result result;
+
+	// Loads questions from file
+	initialize_quiz(&quiz, "questions.txt");
+
+	// Get user name
 	char user_name[MAX_USER_NAME_LEN];
 	get_user_name(user_name);
-	initialize_result(result, user_name);
-	start_quiz(quiz, result);
-	display_result(result);
+
+	// Initialize result structure
+	initialize_result(&result, user_name);
+
+	// Start the quiz
+	start_quiz(&quiz, &result);
+
+	// Display results
+	display_result(&result);
+
+	// Save results to result file
+	save_results("results.txt", &result);
 }
 
 // gets user's name
 void get_user_name(char *user_name)
 {
 	printf("Please enter your name: ");
-	if (scanf("%s", user_name) != 1)
+	if (scanf("%19s", user_name) != 1)
 	{
 		printf("Invalid input\n");
+		user_name[0] = '\0';
 		clean_input_buffer();
+		return;
 	}
 	user_name[MAX_USER_NAME_LEN - 1] = '\0';
 	return;

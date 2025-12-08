@@ -37,14 +37,14 @@
 #define FOPEN(fptr, filename, mode) (fptr = fopen(filename, mode))
 #endif
 
-#define FIELDS 8 // There must be 8 fields in a question line
+#define FIELDS_COUNT 8 // There must be 8 fields in a question line
 #define MAX_QUES_LEN 100
 #define MAX_OPTION_LEN 20
 #define MAX_QUES_COUNT 20
 #define MAX_USER_NAME_LEN 20
 #define MAX_FILE_READ_SIZE 204800 // 200KB safe for 1000 questions
 
-char file_read_buffer[MAX_FILE_READ_SIZE];
+extern char file_read_buffer[MAX_FILE_READ_SIZE]; // declaration only
 
 typedef struct Options
 {
@@ -83,7 +83,7 @@ typedef struct Result
 // display
 void display_help(const char *s);
 void display_version(const char *s);
-void display_question(Question *q);
+void display_question(Question *q, int qid);
 void display_result(Result *r);
 
 // file io
@@ -91,7 +91,7 @@ size_t load_questions(const char *filename, Quiz *quiz);
 void save_results(const char *filename, Result *result);
 
 // quiz engine
-void initialize_quiz(Quiz *quiz);
+void initialize_quiz(Quiz *quiz, const char *filename);
 char get_user_answer();
 void evaluate_answer(Question *q, char answer, Result *result);
 void start_quiz(Quiz *quiz, Result *result);
@@ -104,6 +104,7 @@ void initialize_result(Result *r, const char *user_name);
 void trim_newline(char *str);
 int is_valid_option(char c);
 void clean_input_buffer();
+int parse_question_line(char *line, Question *q);
 
 // main
 void quiz_main();

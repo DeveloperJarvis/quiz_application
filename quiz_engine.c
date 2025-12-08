@@ -92,12 +92,12 @@ void start_quiz(Quiz *quiz, Result *result)
 
     printf("\nStarting Quiz for %s...\n", result->user_name);
     printf("Total Questions: %d\n", quiz->total_questions);
-    printf("----------------------------------");
+    printf("----------------------------------\n");
 
     for (int i = 0; i < quiz->total_questions; i++)
     {
         Question *q = &quiz->questions[i];
-        display_question(q);
+        display_question(q, i + 1);
         char answer = get_user_answer();
         evaluate_answer(q, answer, result);
     }
@@ -107,14 +107,19 @@ void start_quiz(Quiz *quiz, Result *result)
 
 void shuffle_questions(Question *arr, int count)
 {
-    for (int i = count - 1; i > 0; i++)
+    if (arr == NULL || count <= 1)
+    {
+        printf("shuffle questions: invalid arr or count=%d\n", count);
+        return;
+    }
+    for (int i = (count - 1); i > 0; i--)
     {
         int j = rand() % (i + 1);
-
         Question temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
+    // printf("shuffled\n");
 }
 
 void initialize_quiz(Quiz *quiz, const char *filename)
@@ -122,8 +127,9 @@ void initialize_quiz(Quiz *quiz, const char *filename)
     if (quiz == NULL || filename == NULL)
         return;
 
-    // Seed randomness
-    srand(time(NULL));
+    // Reset total questions
+    quiz->total_questions = 0;
+
     int total_loaded = load_questions(filename, quiz);
     if (total_loaded == 0)
     {
@@ -132,11 +138,11 @@ void initialize_quiz(Quiz *quiz, const char *filename)
         return;
     }
 
-    shuffle_questions(quiz->questions, total_loaded);
-
     int final_count = (total_loaded < MAX_QUES_COUNT)
                           ? total_loaded
                           : MAX_QUES_COUNT;
+    // printf("loaded questins %d final count %d\n", total_loaded, final_count);
+    shuffle_questions(quiz->questions, final_count);
 
     quiz->total_questions = final_count;
 }

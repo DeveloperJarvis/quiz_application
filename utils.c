@@ -68,9 +68,9 @@ int is_valid_option(char c)
     {
         c = toupper((unsigned char)c);
         if (c == 'A' || c == 'B' || c == 'C' || c == 'D')
-            return 0; // 0 -> is valid
+            return 1; // 1 -> is valid
     }
-    return 1; // 1 -> is not valid
+    return 0; // 0 -> is not valid
 }
 
 void clean_input_buffer()
@@ -87,9 +87,62 @@ int parse_question_line(char *line, Question *q)
         return 0;
 
     // There must be 8 fields
-    char *fields[FIELDS];
+    char *fields[FIELDS_COUNT];
     int fcount = 0;
 
     char *p = line;
     fields[fcount++] = p;
+
+    // Split using manual parsing for roburstness
+    while (*p != '\0' && fcount < FIELDS_COUNT)
+    {
+        if (*p == '|')
+        {
+            *p = '\0';
+            fields[fcount++] = p + 1;
+        }
+        p++;
+    }
+
+    // Not enough fields -> malformed
+    if (fcount != FIELDS_COUNT)
+        return 0;
+
+    /*
+     * fields map:
+     * 0 = QID
+     * 1 = QUESTION
+     * 2 = A
+     * 3 = B
+     * 4 = C
+     * 5 = D
+     * 6 = CORRECT_OPTION
+     * 7 = DIFFICULTY (ignored)
+     */
+
+    /*
+    // Copy question text
+    strncpy(q->question_text, fields[1], MAX_QUES_LEN - 1);
+    q->question_text[MAX_OPTION_LEN - 1] = '\0';
+    */
+    // snprintf() slightly cleaner and handles truncation automatically
+    // Do not call snprintf without "%s" that is unsafe
+    // Copy question text
+    snprintf(q->question_text, MAX_QUES_LEN, "%s", fields[1]);
+
+    // Copy options
+    snprintf(q->options.A, MAX_OPTION_LEN, "%s", fields[2]);
+    snprintf(q->options.B, MAX_OPTION_LEN, "%s", fields[3]);
+    snprintf(q->options.C, MAX_OPTION_LEN, "%s", fields[4]);
+    snprintf(q->options.D, MAX_OPTION_LEN, "%s", fields[5]);
+
+    // Correct option must be A/B/C/D
+    char c = fields[6][0];
+    c = toupper((unsigned char)c);
+
+    if (c != 'A' && c != 'B' && c != 'C' && c != 'D')
+        return 0;
+    q->correct_option = c;
+
+    return 1;
 }

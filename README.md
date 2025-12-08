@@ -54,7 +54,7 @@ This can later be used for:
 ## **Installation**
 
 ```bash
-gcc -o quiz_app main.c quiz_engine.c file_io.c utils.c
+gcc -o quiz_application.out display.c file_io.c quiz_application.c quiz_engine.c result.c utils.c
 ```
 
 ---
@@ -64,7 +64,7 @@ gcc -o quiz_app main.c quiz_engine.c file_io.c utils.c
 Run:
 
 ```bash
-./quiz_app
+./quiz_application.out
 ```
 
 ---
