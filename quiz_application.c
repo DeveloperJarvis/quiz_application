@@ -45,7 +45,7 @@ int main(int argc, const char *argv[])
 	srand(time(NULL));
 	if (argc == 1)
 		quiz_main();
-	if (argc == 2)
+	else if (argc == 2)
 	{
 		if (strcmp(argv[1], "-h") == 0 || strcmp(argv[1], "--help") == 0)
 			display_help(argv[0]);

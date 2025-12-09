@@ -73,7 +73,7 @@ void display_version(const char *s)
 // Display the question in nice format
 void display_question(Question *q, int qid)
 {
-    printf("Q%d %s\nA) %s\nB) %s\nC) %s\nD)%s\n",
+    printf("Q%d %s\nA) %s\nB) %s\nC) %s\nD) %s\n",
            qid,
            q->question_text,
            q->options.A,

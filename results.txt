@@ -1,0 +1,12 @@
+===============================
+Result for test
+Score: 20
+Questions Attempted: 20
+Correct Answers: 20
+===============================
+===============================
+Result for superman
+Score: 14
+Questions Attempted: 20
+Correct Answers: 14
+===============================

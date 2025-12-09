@@ -65,7 +65,7 @@ char get_user_answer()
 
         clean_input_buffer(); // remove trailing newline
 
-        if (is_valid_option(ch) == 0)
+        if (is_valid_option(ch) == 1)
             return toupper((unsigned char)ch);
 
         printf("Invalid option! Please enter A, B, C or D.\n");
@@ -100,6 +100,7 @@ void start_quiz(Quiz *quiz, Result *result)
         display_question(q, i + 1);
         char answer = get_user_answer();
         evaluate_answer(q, answer, result);
+        printf("----------------------------------\n");
     }
     printf("\nQuiz Finished\n");
     return;
