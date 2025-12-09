@@ -40,9 +40,16 @@
 #define FIELDS_COUNT 8 // There must be 8 fields in a question line
 #define MAX_QUES_LEN 100
 #define MAX_OPTION_LEN 20
-#define MAX_QUES_COUNT 20
 #define MAX_USER_NAME_LEN 20
 #define MAX_FILE_READ_SIZE 204800 // 200KB safe for 1000 questions
+
+// #define MAX_QUES_COUNT 20
+// #define QUIZ_FILE "questions.txt"
+// #define RESULTS_FILE "results.txt"
+
+#define MAX_QUES_COUNT 20
+#define QUIZ_FILE ".files/python.txt"
+#define RESULTS_FILE ".files/python_results.txt"
 
 extern char file_read_buffer[MAX_FILE_READ_SIZE]; // declaration only
 

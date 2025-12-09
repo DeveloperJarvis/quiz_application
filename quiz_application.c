@@ -73,7 +73,7 @@ void quiz_main()
 	Result result;
 
 	// Loads questions from file
-	initialize_quiz(&quiz, "questions.txt");
+	initialize_quiz(&quiz, QUIZ_FILE);
 
 	// Get user name
 	char user_name[MAX_USER_NAME_LEN];
@@ -89,7 +89,7 @@ void quiz_main()
 	display_result(&result);
 
 	// Save results to result file
-	save_results("results.txt", &result);
+	save_results(RESULTS_FILE, &result);
 }
 
 // gets user's name
