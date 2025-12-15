@@ -148,7 +148,7 @@ Q147|Which operator triggers __lt__?|<|<=|>=|==|A|H
 Q148|Which function inspects class attributes?|dir()|list()|keys()|fields()|A|H
 Q149|Which statement about Python lists is true?|Fixed size|Auto-resizing|Immutable|Stored in tree|B|H
 Q150|Which decorator creates cached properties?|functools.cached_property|property.cached|cached.value|property.cache|A|H
-Q151|Which operator triggers __or__?|or||||\||A|H
+Q151|Which operator triggers __or__?|or|and|if|else|A|H
 Q152|Which module implements protocol buffers for Python?|protobuf|marshal|pickle|buffer|A|H
 Q153|Which class handles bytecode execution frames?|FrameObject|PyFrameObject|ByteFrame|FrameCore|B|H
 Q154|What is Python's method for deep attribute resolution?|__resolve__|__getattribute__|__fetch__|__search__|B|H
